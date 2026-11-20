@@ -1,6 +1,6 @@
 # NYS HCV Homeownership Feasibility Dashboard
 
-Policy screening map for Housing Choice Voucher homeownership across 2,104 Census tracts in six New York State metros. The live site is [https://celebrated-otter-2b054a.netlify.app](https://celebrated-otter-2b054a.netlify.app). If Netlify asks for a password, use `My-Drop-Site` until the site is claimed on a team account.
+Policy screening map for Housing Choice Voucher homeownership across 2,104 Census tracts in six New York State metros. The live site is [https://nys-hcv-dashboard.netlify.app]((https://nys-hcv-dashboard.netlify.app/). If Netlify asks for a password, use `My-Drop-Site` until the site is claimed on a team account.
 
 Netlify builds from `main`:
 
