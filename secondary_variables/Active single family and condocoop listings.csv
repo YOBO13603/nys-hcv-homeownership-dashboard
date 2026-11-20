@@ -1,0 +1,1665 @@
+parent_zip,city_market_name,data_month,active_listings_zip,median_days_on_market
+10001,"new york, ny",202610,92,64
+10002,"new york, ny",202610,128,59
+10003,"new york, ny",202610,267,54
+10004,"new york, ny",202610,36,59
+10005,"new york, ny",202610,102,64
+10006,"new york, ny",202610,41,67
+10007,"new york, ny",202610,64,54
+10009,"new york, ny",202610,43,44
+10010,"new york, ny",202610,135,60
+10011,"new york, ny",202610,335,46
+10012,"new york, ny",202610,118,44
+10013,"new york, ny",202610,159,57
+10014,"new york, ny",202610,131,39
+10016,"new york, ny",202610,399,64
+10017,"new york, ny",202610,173,58
+10018,"new york, ny",202610,60,80
+10019,"new york, ny",202610,408,78
+10021,"new york, ny",202610,321,46
+10022,"new york, ny",202610,536,71
+10023,"new york, ny",202610,332,52
+10024,"new york, ny",202610,204,37
+10025,"new york, ny",202610,228,57
+10026,"new york, ny",202610,95,46
+10027,"new york, ny",202610,119,67
+10028,"new york, ny",202610,188,53
+10029,"new york, ny",202610,73,72
+10030,"new york, ny",202610,43,102
+10031,"new york, ny",202610,48,98
+10032,"new york, ny",202610,54,128
+10033,"new york, ny",202610,65,60
+10034,"new york, ny",202610,24,47
+10035,"new york, ny",202610,36,86
+10036,"new york, ny",202610,112,87
+10037,"new york, ny",202610,20,101
+10038,"new york, ny",202610,82,51
+10039,"new york, ny",202610,33,90
+10040,"new york, ny",202610,22,48
+10044,"new york, ny",202610,19,65
+10065,"new york, ny",202610,307,45
+10069,"new york, ny",202610,71,86
+10075,"new york, ny",202610,166,46
+10103,,202610,1,27
+10112,,202610,1,275
+10128,"new york, ny",202610,239,50
+10280,"new york, ny",202610,62,107
+10282,"new york, ny",202610,19,93
+10301,"staten island, ny",202610,110,92
+10302,"staten island, ny",202610,23,48
+10303,"staten island, ny",202610,48,54
+10304,"staten island, ny",202610,98,77
+10305,"staten island, ny",202610,80,75
+10306,"staten island, ny",202610,110,51
+10307,"staten island, ny",202610,29,47
+10308,"staten island, ny",202610,86,65
+10309,"staten island, ny",202610,55,46
+10310,"staten island, ny",202610,29,60
+10312,"staten island, ny",202610,125,57
+10314,"staten island, ny",202610,161,47
+10451,"bronx, ny",202610,48,72
+10452,"bronx, ny",202610,26,94
+10453,"bronx, ny",202610,11,60
+10454,"bronx, ny",202610,7,39
+10455,"bronx, ny",202610,10,86
+10456,"bronx, ny",202610,14,82
+10457,"bronx, ny",202610,17,44
+10458,"bronx, ny",202610,29,93
+10459,"bronx, ny",202610,18,31
+10460,"bronx, ny",202610,16,46
+10461,"bronx, ny",202610,39,62
+10462,"bronx, ny",202610,78,60
+10463,"bronx, ny",202610,253,86
+10464,"bronx, ny",202610,22,65
+10465,"bronx, ny",202610,84,75
+10466,"bronx, ny",202610,48,61
+10467,"bronx, ny",202610,60,86
+10468,"bronx, ny",202610,77,119
+10469,"bronx, ny",202610,51,62
+10470,"bronx, ny",202610,21,103
+10471,"bronx, ny",202610,123,107
+10472,"bronx, ny",202610,6,77
+10473,"bronx, ny",202610,50,62
+10474,"bronx, ny",202610,3,182
+10475,"bronx, ny",202610,2,47
+10501,"amawalk, ny",202610,3,77
+10502,"ardsley, ny",202610,7,51
+10503,,202610,1,15
+10504,"armonk, ny",202610,20,50
+10505,"baldwin place, ny",202610,1,12
+10506,"bedford, ny",202610,18,73
+10507,"bedford hills, ny",202610,7,46
+10509,"brewster, ny",202610,57,50
+10510,"briarcliff manor, ny",202610,23,46
+10511,"buchanan, ny",202610,5,79
+10512,"carmel, ny",202610,77,40
+10514,"chappaqua, ny",202610,13,46
+10516,"cold spring, ny",202610,20,46
+10517,"crompond, ny",202610,1,93
+10518,"cross river, ny",202610,6,54
+10519,"croton falls, ny",202610,1,8
+10520,"croton on hudson, ny",202610,36,45
+10522,"dobbs ferry, ny",202610,29,50
+10523,"elmsford, ny",202610,10,27
+10524,"garrison, ny",202610,10,59
+10526,"goldens bridge, ny",202610,3,28
+10528,"harrison, ny",202610,10,29
+10530,"hartsdale, ny",202610,38,36
+10532,"hawthorne, ny",202610,5,52
+10533,"irvington, ny",202610,16,92
+10535,"jefferson valley, ny",202610,4,92
+10536,"katonah, ny",202610,16,47
+10537,"lake peekskill, ny",202610,16,43
+10538,"larchmont, ny",202610,20,71
+10541,"mahopac, ny",202610,54,59
+10543,"mamaroneck, ny",202610,23,37
+10546,"millwood, ny",202610,4,67
+10547,"mohegan lake, ny",202610,17,39
+10548,"montrose, ny",202610,7,68
+10549,"mount kisco, ny",202610,35,30
+10550,"mount vernon, ny",202610,25,56
+10552,"mount vernon, ny",202610,62,79
+10553,"mount vernon, ny",202610,15,58
+10560,"north salem, ny",202610,13,39
+10562,"ossining, ny",202610,50,37
+10566,"peekskill, ny",202610,48,53
+10567,"cortlandt manor, ny",202610,45,46
+10570,"pleasantville, ny",202610,13,38
+10573,"port chester, ny",202610,42,45
+10576,"pound ridge, ny",202610,18,94
+10577,"purchase, ny",202610,9,27
+10578,"purdys, ny",202610,1,70
+10579,"putnam valley, ny",202610,28,61
+10580,"rye, ny",202610,32,39
+10583,"scarsdale, ny",202610,71,45
+10588,"shrub oak, ny",202610,5,36
+10589,"somers, ny",202610,36,31
+10590,"south salem, ny",202610,24,67
+10591,"tarrytown, ny",202610,43,64
+10594,"thornwood, ny",202610,6,81
+10595,"valhalla, ny",202610,7,34
+10596,"verplanck, ny",202610,6,36
+10597,"waccabuc, ny",202610,1,96
+10598,"yorktown heights, ny",202610,67,40
+10601,"white plains, ny",202610,37,71
+10603,"white plains, ny",202610,35,33
+10604,"west harrison, ny",202610,11,36
+10605,"white plains, ny",202610,32,48
+10606,"white plains, ny",202610,15,53
+10607,"white plains, ny",202610,15,67
+10701,"yonkers, ny",202610,67,78
+10703,"yonkers, ny",202610,24,46
+10704,"yonkers, ny",202610,64,71
+10705,"yonkers, ny",202610,47,83
+10706,"hastings on hudson, ny",202610,21,37
+10707,"tuckahoe, ny",202610,12,30
+10708,"bronxville, ny",202610,76,69
+10709,"eastchester, ny",202610,21,74
+10710,"yonkers, ny",202610,64,49
+10801,"new rochelle, ny",202610,47,81
+10803,"pelham, ny",202610,12,55
+10804,"new rochelle, ny",202610,30,39
+10805,"new rochelle, ny",202610,50,80
+10901,"suffern, ny",202610,97,58
+10913,"blauvelt, ny",202610,10,65
+10914,"blooming grove, ny",202610,5,31
+10915,,202610,1,104
+10916,"campbell hall, ny",202610,11,85
+10917,"central valley, ny",202610,11,72
+10918,"chester, ny",202610,61,76
+10919,"circleville, ny",202610,4,57
+10920,"congers, ny",202610,23,33
+10921,"florida, ny",202610,16,108
+10922,"fort montgomery, ny",202610,3,73
+10923,"garnerville, ny",202610,16,50
+10924,"goshen, ny",202610,46,63
+10925,"greenwood lake, ny",202610,32,83
+10926,"harriman, ny",202610,9,23
+10927,"haverstraw, ny",202610,21,47
+10928,"highland falls, ny",202610,7,61
+10930,"highland mills, ny",202610,34,77
+10931,"hillburn, ny",202610,1,13
+10932,,202610,3,81
+10933,"johnson, ny",202610,1,99
+10940,"middletown, ny",202610,156,45
+10941,"middletown, ny",202610,24,49
+10950,"monroe, ny",202610,201,67
+10952,"monsey, ny",202610,62,94
+10953,"mountainville, ny",202610,1,128
+10954,"nanuet, ny",202610,45,40
+10956,"new city, ny",202610,63,57
+10958,"new hampton, ny",202610,16,86
+10960,"nyack, ny",202610,43,65
+10962,"orangeburg, ny",202610,9,49
+10963,"otisville, ny",202610,14,54
+10964,"palisades, ny",202610,6,131
+10965,"pearl river, ny",202610,27,56
+10968,"piermont, ny",202610,17,59
+10969,"pine island, ny",202610,8,52
+10970,"pomona, ny",202610,30,60
+10973,"slate hill, ny",202610,24,56
+10974,"sloatsburg, ny",202610,17,62
+10975,"southfields, ny",202610,2,45
+10976,"sparkill, ny",202610,3,29
+10977,"spring valley, ny",202610,85,65
+10980,"stony point, ny",202610,26,48
+10983,"tappan, ny",202610,8,84
+10984,"thiells, ny",202610,4,61
+10985,"thompson ridge, ny",202610,1,91
+10986,"tomkins cove, ny",202610,8,76
+10987,"tuxedo park, ny",202610,23,82
+10988,"unionville, ny",202610,5,81
+10989,"valley cottage, ny",202610,35,46
+10990,"warwick, ny",202610,66,72
+10992,"washingtonville, ny",202610,33,61
+10993,"west haverstraw, ny",202610,9,60
+10994,"west nyack, ny",202610,15,33
+10998,"westtown, ny",202610,8,45
+11001,"floral park, ny",202610,38,88
+11003,"elmont, ny",202610,65,58
+11004,"glen oaks, ny",202610,33,60
+11005,"floral park, ny",202610,29,55
+11010,"franklin square, ny",202610,31,49
+11020,"great neck, ny",202610,20,66
+11021,"great neck, ny",202610,72,63
+11023,"great neck, ny",202610,22,61
+11024,"great neck, ny",202610,25,78
+11030,"manhasset, ny",202610,41,81
+11040,"new hyde park, ny",202610,73,52
+11050,"port washington, ny",202610,47,65
+11096,"inwood, ny",202610,9,69
+11101,"long island city, ny",202610,217,58
+11102,"astoria, ny",202610,83,89
+11103,"astoria, ny",202610,21,63
+11104,"sunnyside, ny",202610,47,47
+11105,"astoria, ny",202610,67,85
+11106,"astoria, ny",202610,53,68
+11109,"long island city, ny",202610,11,45
+11201,"brooklyn, ny",202610,238,51
+11203,"brooklyn, ny",202610,93,100
+11204,"brooklyn, ny",202610,45,109
+11205,"brooklyn, ny",202610,49,37
+11206,"brooklyn, ny",202610,24,37
+11207,"brooklyn, ny",202610,87,64
+11208,"brooklyn, ny",202610,37,56
+11209,"brooklyn, ny",202610,162,65
+11210,"brooklyn, ny",202610,77,81
+11211,"brooklyn, ny",202610,85,37
+11212,"brooklyn, ny",202610,21,71
+11213,"brooklyn, ny",202610,42,99
+11214,"brooklyn, ny",202610,100,80
+11215,"brooklyn, ny",202610,124,31
+11216,"brooklyn, ny",202610,53,60
+11217,"brooklyn, ny",202610,80,44
+11218,"brooklyn, ny",202610,102,32
+11219,"brooklyn, ny",202610,52,62
+11220,"brooklyn, ny",202610,55,70
+11221,"brooklyn, ny",202610,88,72
+11222,"brooklyn, ny",202610,77,46
+11223,"brooklyn, ny",202610,52,79
+11224,"brooklyn, ny",202610,75,59
+11225,"brooklyn, ny",202610,35,27
+11226,"brooklyn, ny",202610,85,73
+11228,"brooklyn, ny",202610,40,57
+11229,"brooklyn, ny",202610,204,75
+11230,"brooklyn, ny",202610,130,61
+11231,"brooklyn, ny",202610,48,41
+11232,"brooklyn, ny",202610,28,39
+11233,"brooklyn, ny",202610,59,64
+11234,"brooklyn, ny",202610,203,85
+11235,"brooklyn, ny",202610,309,76
+11236,"brooklyn, ny",202610,55,100
+11237,"brooklyn, ny",202610,24,59
+11238,"brooklyn, ny",202610,83,26
+11239,"brooklyn, ny",202610,4,28
+11243,,202610,6,46
+11249,"brooklyn, ny",202610,85,50
+11354,"flushing, ny",202610,376,88
+11355,"flushing, ny",202610,224,80
+11356,"college point, ny",202610,57,59
+11357,"whitestone, ny",202610,138,72
+11358,"flushing, ny",202610,74,72
+11360,"bayside, ny",202610,115,74
+11361,"bayside, ny",202610,61,64
+11362,"little neck, ny",202610,73,54
+11363,"little neck, ny",202610,29,79
+11364,"oakland gardens, ny",202610,99,58
+11365,"fresh meadows, ny",202610,52,94
+11366,"fresh meadows, ny",202610,25,82
+11367,"flushing, ny",202610,132,66
+11368,"corona, ny",202610,84,78
+11369,"east elmhurst, ny",202610,46,72
+11370,"east elmhurst, ny",202610,17,65
+11372,"jackson heights, ny",202610,171,85
+11373,"elmhurst, ny",202610,124,75
+11374,"rego park, ny",202610,194,76
+11375,"forest hills, ny",202610,299,87
+11377,"woodside, ny",202610,190,84
+11378,"maspeth, ny",202610,26,48
+11379,"middle village, ny",202610,41,61
+11385,"ridgewood, ny",202610,39,58
+11411,"cambria heights, ny",202610,35,68
+11412,"saint albans, ny",202610,61,52
+11413,"springfield gardens, ny",202610,69,61
+11414,"howard beach, ny",202610,96,83
+11415,"kew gardens, ny",202610,77,100
+11416,"ozone park, ny",202610,9,71
+11417,"ozone park, ny",202610,28,68
+11418,"richmond hill, ny",202610,38,62
+11419,"south richmond hill, ny",202610,31,110
+11420,"south ozone park, ny",202610,55,79
+11421,"woodhaven, ny",202610,50,83
+11422,"rosedale, ny",202610,46,71
+11423,"hollis, ny",202610,55,80
+11426,"bellerose, ny",202610,44,49
+11427,"queens village, ny",202610,61,63
+11428,"queens village, ny",202610,19,92
+11429,"queens village, ny",202610,40,81
+11431,,202610,0,0
+11432,"jamaica, ny",202610,109,76
+11433,"jamaica, ny",202610,26,50
+11434,"jamaica, ny",202610,54,72
+11435,"jamaica, ny",202610,76,75
+11436,"jamaica, ny",202610,30,66
+11501,"mineola, ny",202610,34,43
+11507,"albertson, ny",202610,13,76
+11509,"atlantic beach, ny",202610,19,78
+11510,"baldwin, ny",202610,54,41
+11514,"carle place, ny",202610,3,35
+11516,"cedarhurst, ny",202610,24,65
+11518,"east rockaway, ny",202610,43,41
+11520,"freeport, ny",202610,83,56
+11530,"garden city, ny",202610,42,57
+11542,"glen cove, ny",202610,48,87
+11545,"glen head, ny",202610,60,94
+11547,"glenwood landing, ny",202610,4,50
+11548,"greenvale, ny",202610,1,104
+11550,"hempstead, ny",202610,61,43
+11552,"west hempstead, ny",202610,48,51
+11553,"uniondale, ny",202610,18,36
+11554,"east meadow, ny",202610,48,39
+11557,"hewlett, ny",202610,41,85
+11558,"island park, ny",202610,9,89
+11559,"lawrence, ny",202610,18,66
+11560,"locust valley, ny",202610,21,102
+11561,"long beach, ny",202610,160,78
+11563,"lynbrook, ny",202610,40,41
+11565,"malverne, ny",202610,21,46
+11566,"merrick, ny",202610,56,42
+11568,"old westbury, ny",202610,19,46
+11569,"point lookout, ny",202610,4,206
+11570,"rockville centre, ny",202610,48,53
+11572,"oceanside, ny",202610,73,44
+11575,"roosevelt, ny",202610,20,55
+11576,"roslyn, ny",202610,39,68
+11577,"roslyn heights, ny",202610,29,79
+11579,"sea cliff, ny",202610,16,37
+11580,"valley stream, ny",202610,75,59
+11581,"valley stream, ny",202610,55,65
+11590,"westbury, ny",202610,72,58
+11596,"williston park, ny",202610,11,34
+11598,"woodmere, ny",202610,44,69
+11691,"far rockaway, ny",202610,43,88
+11692,"arverne, ny",202610,13,115
+11693,"far rockaway, ny",202610,40,95
+11694,"rockaway park, ny",202610,51,105
+11697,"breezy point, ny",202610,4,50
+11701,"amityville, ny",202610,46,50
+11702,"babylon, ny",202610,31,45
+11703,"north babylon, ny",202610,29,33
+11704,"west babylon, ny",202610,43,39
+11705,"bayport, ny",202610,8,44
+11706,"bay shore, ny",202610,81,53
+11709,"bayville, ny",202610,16,105
+11710,"bellmore, ny",202610,53,46
+11713,"bellport, ny",202610,31,52
+11714,"bethpage, ny",202610,38,64
+11715,"blue point, ny",202610,4,24
+11716,"bohemia, ny",202610,13,40
+11717,"brentwood, ny",202610,49,43
+11718,"brightwaters, ny",202610,7,32
+11719,"brookhaven, ny",202610,17,79
+11720,"centereach, ny",202610,52,50
+11721,"centerport, ny",202610,13,29
+11722,"central islip, ny",202610,42,53
+11724,"cold spring harbor, ny",202610,11,68
+11725,"commack, ny",202610,31,40
+11726,"copiague, ny",202610,33,38
+11727,"coram, ny",202610,86,40
+11729,"deer park, ny",202610,40,30
+11730,"east islip, ny",202610,27,44
+11731,"east northport, ny",202610,32,31
+11732,"east norwich, ny",202610,4,53
+11733,"east setauket, ny",202610,52,45
+11735,"farmingdale, ny",202610,31,34
+11738,"farmingville, ny",202610,25,42
+11739,"great river, ny",202610,5,64
+11740,"greenlawn, ny",202610,9,38
+11741,"holbrook, ny",202610,31,32
+11742,"holtsville, ny",202610,17,24
+11743,"huntington, ny",202610,102,45
+11746,"huntington station, ny",202610,120,51
+11747,"melville, ny",202610,49,68
+11749,"islandia, ny",202610,7,23
+11751,"islip, ny",202610,28,51
+11752,"islip terrace, ny",202610,8,31
+11753,"jericho, ny",202610,38,88
+11754,"kings park, ny",202610,25,36
+11755,"lake grove, ny",202610,29,50
+11756,"levittown, ny",202610,91,52
+11757,"lindenhurst, ny",202610,77,39
+11758,"massapequa, ny",202610,82,52
+11762,"massapequa park, ny",202610,22,43
+11763,"medford, ny",202610,56,25
+11764,"miller place, ny",202610,24,61
+11765,"mill neck, ny",202610,8,99
+11766,"mount sinai, ny",202610,28,52
+11767,"nesconset, ny",202610,19,51
+11768,"northport, ny",202610,47,55
+11769,"oakdale, ny",202610,22,47
+11770,"ocean beach, ny",202610,30,117
+11771,"oyster bay, ny",202610,34,87
+11772,"patchogue, ny",202610,95,32
+11776,"port jefferson station, ny",202610,49,49
+11777,"port jefferson, ny",202610,40,40
+11778,"rocky point, ny",202610,64,67
+11779,"ronkonkoma, ny",202610,51,32
+11780,"saint james, ny",202610,47,47
+11782,"sayville, ny",202610,57,86
+11783,"seaford, ny",202610,28,52
+11784,"selden, ny",202610,39,28
+11786,"shoreham, ny",202610,18,34
+11787,"smithtown, ny",202610,61,55
+11788,"hauppauge, ny",202610,25,58
+11789,"sound beach, ny",202610,24,39
+11790,"stony brook, ny",202610,24,43
+11791,"syosset, ny",202610,67,63
+11792,"wading river, ny",202610,38,70
+11793,"wantagh, ny",202610,42,54
+11795,"west islip, ny",202610,32,51
+11796,"west sayville, ny",202610,2,26
+11797,"woodbury, ny",202610,27,96
+11798,"wyandanch, ny",202610,30,50
+11801,"hicksville, ny",202610,95,55
+11803,"plainview, ny",202610,35,51
+11804,"old bethpage, ny",202610,11,43
+11901,"riverhead, ny",202610,69,68
+11930,"amagansett, ny",202610,46,81
+11931,,202610,9,66
+11932,"bridgehampton, ny",202610,36,103
+11933,"calverton, ny",202610,37,53
+11934,"center moriches, ny",202610,28,116
+11935,"cutchogue, ny",202610,31,93
+11937,"east hampton, ny",202610,221,73
+11939,"east marion, ny",202610,15,72
+11940,"east moriches, ny",202610,18,91
+11941,"eastport, ny",202610,10,75
+11942,"east quogue, ny",202610,53,109
+11944,"greenport, ny",202610,29,141
+11946,"hampton bays, ny",202610,107,85
+11947,"jamesport, ny",202610,8,78
+11948,"laurel, ny",202610,6,90
+11949,"manorville, ny",202610,51,46
+11950,"mastic, ny",202610,31,45
+11951,"mastic beach, ny",202610,70,59
+11952,"mattituck, ny",202610,36,79
+11953,"middle island, ny",202610,60,32
+11954,"montauk, ny",202610,97,102
+11955,"moriches, ny",202610,12,99
+11956,"new suffolk, ny",202610,2,88
+11957,"orient, ny",202610,15,59
+11958,"peconic, ny",202610,8,68
+11959,"quogue, ny",202610,27,120
+11960,"remsenburg, ny",202610,28,121
+11961,"ridge, ny",202610,52,48
+11962,"sagaponack, ny",202610,19,72
+11963,"sag harbor, ny",202610,114,109
+11964,"shelter island, ny",202610,69,128
+11965,"shelter island heights, ny",202610,10,71
+11967,"shirley, ny",202610,86,52
+11968,"southampton, ny",202610,211,92
+11970,"south jamesport, ny",202610,1,23
+11971,"southold, ny",202610,40,82
+11972,"speonk, ny",202610,8,99
+11975,"wainscott, ny",202610,22,71
+11976,"water mill, ny",202610,71,118
+11977,"westhampton, ny",202610,53,107
+11978,"westhampton beach, ny",202610,67,103
+11980,"yaphank, ny",202610,18,45
+12008,"alplaus, ny",202610,3,25
+12009,"altamont, ny",202610,18,46
+12010,"amsterdam, ny",202610,59,60
+12015,"athens, ny",202610,27,79
+12017,"austerlitz, ny",202610,10,52
+12018,"averill park, ny",202610,15,54
+12019,"ballston lake, ny",202610,32,69
+12020,"ballston spa, ny",202610,62,50
+12022,"berlin, ny",202610,3,69
+12023,"berne, ny",202610,3,40
+12024,"brainard, ny",202610,1,53
+12025,"broadalbin, ny",202610,15,60
+12027,"burnt hills, ny",202610,5,40
+12028,"buskirk, ny",202610,3,114
+12029,"canaan, ny",202610,20,99
+12031,"carlisle, ny",202610,0,58
+12032,"caroga lake, ny",202610,18,92
+12033,"castleton on hudson, ny",202610,25,61
+12035,"central bridge, ny",202610,2,41
+12036,"charlotteville, ny",202610,5,101
+12037,"chatham, ny",202610,16,65
+12041,"clarksville, ny",202610,1,65
+12042,"climax, ny",202610,5,105
+12043,"cobleskill, ny",202610,15,75
+12045,"coeymans, ny",202610,1,33
+12046,"coeymans hollow, ny",202610,4,129
+12047,"cohoes, ny",202610,22,34
+12051,"coxsackie, ny",202610,17,74
+12052,"cropseyville, ny",202610,3,57
+12053,"delanson, ny",202610,13,67
+12054,"delmar, ny",202610,18,27
+12056,"duanesburg, ny",202610,4,123
+12057,"eagle bridge, ny",202610,5,68
+12058,"earlton, ny",202610,3,20
+12059,"east berne, ny",202610,10,69
+12060,"east chatham, ny",202610,14,115
+12061,"east greenbush, ny",202610,24,24
+12062,"east nassau, ny",202610,5,107
+12063,"east schodack, ny",202610,1,12
+12064,"east worcester, ny",202610,5,91
+12065,"clifton park, ny",202610,81,57
+12066,"esperance, ny",202610,7,90
+12067,"feura bush, ny",202610,2,17
+12068,"fonda, ny",202610,9,29
+12069,"fort hunter, ny",202610,0,130
+12070,"fort johnson, ny",202610,4,33
+12071,"fultonham, ny",202610,2,102
+12072,"fultonville, ny",202610,6,33
+12074,"galway, ny",202610,10,42
+12075,"ghent, ny",202610,21,92
+12076,"gilboa, ny",202610,27,114
+12077,"glenmont, ny",202610,12,41
+12078,"gloversville, ny",202610,67,51
+12082,,202610,0,103
+12083,"greenville, ny",202610,19,64
+12084,"guilderland, ny",202610,5,44
+12085,"guilderland center, ny",202610,0,64
+12086,"hagaman, ny",202610,2,77
+12087,"hannacroix, ny",202610,3,63
+12090,"hoosick falls, ny",202610,23,112
+12092,"howes cave, ny",202610,2,46
+12093,"jefferson, ny",202610,24,106
+12094,"johnsonville, ny",202610,6,109
+12095,"johnstown, ny",202610,40,70
+12106,"kinderhook, ny",202610,14,80
+12108,"lake pleasant, ny",202610,7,24
+12110,"latham, ny",202610,31,38
+12116,"maryland, ny",202610,6,106
+12117,"mayfield, ny",202610,9,34
+12118,"mechanicville, ny",202610,62,76
+12120,"medusa, ny",202610,2,87
+12121,"melrose, ny",202610,4,32
+12122,"middleburgh, ny",202610,29,80
+12123,"nassau, ny",202610,8,66
+12124,"new baltimore, ny",202610,8,93
+12125,"new lebanon, ny",202610,12,112
+12130,"niverville, ny",202610,4,61
+12131,"north blenheim, ny",202610,4,158
+12132,,202610,4,82
+12134,"northville, ny",202610,15,72
+12136,"old chatham, ny",202610,9,127
+12137,"pattersonville, ny",202610,4,70
+12138,"petersburg, ny",202610,12,41
+12139,"piseco, ny",202610,0,96
+12140,"poestenkill, ny",202610,2,97
+12143,"ravena, ny",202610,7,62
+12144,"rensselaer, ny",202610,24,37
+12147,"rensselaerville, ny",202610,3,30
+12148,"rexford, ny",202610,12,32
+12149,"richmondville, ny",202610,10,106
+12150,"rotterdam junction, ny",202610,2,16
+12151,"round lake, ny",202610,2,22
+12153,"sand lake, ny",202610,1,117
+12154,"schaghticoke, ny",202610,3,10
+12155,"schenevus, ny",202610,8,111
+12156,"schodack landing, ny",202610,4,170
+12157,"schoharie, ny",202610,8,53
+12158,"selkirk, ny",202610,9,54
+12159,"slingerlands, ny",202610,10,52
+12160,"sloansville, ny",202610,3,169
+12164,"speculator, ny",202610,4,52
+12165,"spencertown, ny",202610,6,110
+12166,"sprakers, ny",202610,5,107
+12167,"stamford, ny",202610,31,107
+12168,"stephentown, ny",202610,4,44
+12169,"stephentown, ny",202610,2,100
+12170,"stillwater, ny",202610,10,41
+12172,"stottville, ny",202610,1,0
+12173,"stuyvesant, ny",202610,10,71
+12175,"summit, ny",202610,7,95
+12177,"tribes hill, ny",202610,1,107
+12180,"troy, ny",202610,50,31
+12182,"troy, ny",202610,20,33
+12183,"troy, ny",202610,2,14
+12184,"valatie, ny",202610,18,77
+12185,"valley falls, ny",202610,6,66
+12186,"voorheesville, ny",202610,5,21
+12187,"warnerville, ny",202610,2,34
+12188,"waterford, ny",202610,24,50
+12189,"watervliet, ny",202610,21,45
+12190,"wells, ny",202610,10,124
+12192,"west coxsackie, ny",202610,10,109
+12193,"westerlo, ny",202610,14,30
+12194,"west fulton, ny",202610,1,15
+12196,"west sand lake, ny",202610,3,79
+12197,"worcester, ny",202610,15,81
+12198,"wynantskill, ny",202610,27,55
+12201,,202610,1,14
+12202,"albany, ny",202610,8,54
+12203,"albany, ny",202610,37,39
+12204,"albany, ny",202610,11,52
+12205,"albany, ny",202610,33,31
+12206,"albany, ny",202610,13,72
+12207,"albany, ny",202610,1,0
+12208,"albany, ny",202610,21,30
+12209,"albany, ny",202610,17,40
+12210,"albany, ny",202610,13,74
+12211,"albany, ny",202610,16,41
+12302,"schenectady, ny",202610,63,56
+12303,"schenectady, ny",202610,39,45
+12304,"schenectady, ny",202610,29,44
+12305,"schenectady, ny",202610,5,94
+12306,"schenectady, ny",202610,68,40
+12307,"schenectady, ny",202610,19,46
+12308,"schenectady, ny",202610,21,32
+12309,"schenectady, ny",202610,57,45
+12401,"kingston, ny",202610,111,58
+12404,"accord, ny",202610,28,59
+12405,"acra, ny",202610,3,95
+12406,"arkville, ny",202610,10,70
+12407,"ashland, ny",202610,7,117
+12409,"bearsville, ny",202610,6,56
+12410,"big indian, ny",202610,6,151
+12411,"bloomington, ny",202610,1,113
+12412,"boiceville, ny",202610,5,38
+12413,"cairo, ny",202610,20,44
+12414,"catskill, ny",202610,43,93
+12416,"chichester, ny",202610,5,44
+12418,"cornwallville, ny",202610,10,51
+12419,"cottekill, ny",202610,3,92
+12420,,202610,1,151
+12421,"denver, ny",202610,8,116
+12422,"durham, ny",202610,3,38
+12423,"east durham, ny",202610,11,45
+12424,"east jewett, ny",202610,4,133
+12427,"elka park, ny",202610,3,133
+12428,"ellenville, ny",202610,29,64
+12429,,202610,4,74
+12430,"fleischmanns, ny",202610,7,52
+12431,"freehold, ny",202610,6,57
+12432,"glasco, ny",202610,1,44
+12433,"glenford, ny",202610,5,66
+12434,"grand gorge, ny",202610,10,117
+12435,"greenfield park, ny",202610,2,128
+12436,"haines falls, ny",202610,10,80
+12438,"halcottsville, ny",202610,1,285
+12439,"hensonville, ny",202610,2,8
+12440,"high falls, ny",202610,10,108
+12441,,202610,3,41
+12442,"hunter, ny",202610,90,132
+12443,"hurley, ny",202610,12,62
+12444,"jewett, ny",202610,13,118
+12446,"kerhonkson, ny",202610,45,61
+12448,"lake hill, ny",202610,1,66
+12449,"lake katrine, ny",202610,8,36
+12450,"lanesville, ny",202610,4,53
+12451,"leeds, ny",202610,4,42
+12452,,202610,3,36
+12453,"malden on hudson, ny",202610,2,164
+12454,"maplecrest, ny",202610,2,59
+12455,"margaretville, ny",202610,19,65
+12456,"mount marion, ny",202610,2,100
+12457,"mount tremper, ny",202610,0,98
+12458,"napanoch, ny",202610,9,93
+12459,"new kingston, ny",202610,5,87
+12460,"oak hill, ny",202610,3,70
+12461,"olivebridge, ny",202610,13,106
+12463,"palenville, ny",202610,4,95
+12464,"phoenicia, ny",202610,5,58
+12465,"pine hill, ny",202610,3,58
+12466,"port ewen, ny",202610,9,16
+12468,"prattsville, ny",202610,22,117
+12469,"preston hollow, ny",202610,2,62
+12470,"purling, ny",202610,6,94
+12471,"rifton, ny",202610,1,78
+12472,"rosendale, ny",202610,5,90
+12473,"round top, ny",202610,7,60
+12474,"roxbury, ny",202610,29,92
+12475,"ruby, ny",202610,2,53
+12477,"saugerties, ny",202610,95,64
+12480,"shandaken, ny",202610,9,166
+12481,"shokan, ny",202610,4,43
+12482,"south cairo, ny",202610,1,61
+12483,,202610,1,95
+12484,"stone ridge, ny",202610,16,60
+12485,"tannersville, ny",202610,21,119
+12486,"tillson, ny",202610,7,29
+12487,"ulster park, ny",202610,4,29
+12489,"wawarsing, ny",202610,9,127
+12491,"west hurley, ny",202610,6,106
+12492,"west kill, ny",202610,3,178
+12493,"west park, ny",202610,2,9
+12494,"west shokan, ny",202610,7,84
+12495,"willow, ny",202610,4,103
+12496,"windham, ny",202610,93,97
+12498,"woodstock, ny",202610,41,74
+12501,"amenia, ny",202610,13,65
+12502,"ancram, ny",202610,10,58
+12503,"ancramdale, ny",202610,4,60
+12507,"barrytown, ny",202610,1,96
+12508,"beacon, ny",202610,70,57
+12512,"chelsea, ny",202610,1,134
+12513,"claverack, ny",202610,5,190
+12514,"clinton corners, ny",202610,15,102
+12515,"clintondale, ny",202610,8,107
+12516,"copake, ny",202610,25,60
+12517,"copake falls, ny",202610,2,43
+12518,"cornwall, ny",202610,20,54
+12520,"cornwall on hudson, ny",202610,9,104
+12521,"craryville, ny",202610,13,77
+12522,"dover plains, ny",202610,9,46
+12523,"elizaville, ny",202610,9,37
+12524,"fishkill, ny",202610,48,38
+12525,"gardiner, ny",202610,13,119
+12526,"germantown, ny",202610,24,71
+12527,,202610,1,72
+12528,"highland, ny",202610,50,48
+12529,"hillsdale, ny",202610,25,120
+12531,"holmes, ny",202610,16,93
+12533,"hopewell junction, ny",202610,79,71
+12534,"hudson, ny",202610,71,63
+12537,,202610,1,0
+12538,"hyde park, ny",202610,47,45
+12540,"lagrangeville, ny",202610,31,38
+12542,"marlboro, ny",202610,20,86
+12543,"maybrook, ny",202610,2,116
+12545,"millbrook, ny",202610,29,118
+12546,"millerton, ny",202610,16,127
+12547,"milton, ny",202610,15,50
+12548,"modena, ny",202610,4,54
+12549,"montgomery, ny",202610,30,71
+12550,"newburgh, ny",202610,118,57
+12553,"new windsor, ny",202610,68,45
+12561,"new paltz, ny",202610,55,52
+12563,"patterson, ny",202610,22,37
+12564,"pawling, ny",202610,24,56
+12565,"philmont, ny",202610,6,78
+12566,"pine bush, ny",202610,34,66
+12567,"pine plains, ny",202610,27,105
+12568,,202610,4,31
+12569,"pleasant valley, ny",202610,35,47
+12570,"poughquag, ny",202610,19,52
+12571,"red hook, ny",202610,43,61
+12572,"rhinebeck, ny",202610,48,45
+12574,"rhinecliff, ny",202610,3,149
+12575,"rock tavern, ny",202610,12,64
+12577,"salisbury mills, ny",202610,10,94
+12578,"salt point, ny",202610,14,77
+12580,"staatsburg, ny",202610,23,59
+12581,"stanfordville, ny",202610,14,56
+12582,"stormville, ny",202610,9,39
+12583,"tivoli, ny",202610,14,54
+12585,"verbank, ny",202610,6,68
+12586,"walden, ny",202610,28,58
+12589,"wallkill, ny",202610,39,53
+12590,"wappingers falls, ny",202610,77,45
+12592,"wassaic, ny",202610,2,313
+12594,"wingdale, ny",202610,8,68
+12601,"poughkeepsie, ny",202610,88,52
+12603,"poughkeepsie, ny",202610,131,47
+12701,"monticello, ny",202610,61,96
+12719,"barryville, ny",202610,16,115
+12720,"bethel, ny",202610,21,105
+12721,"bloomingburg, ny",202610,27,80
+12722,,202610,1,189
+12723,"callicoon, ny",202610,17,104
+12724,,202610,2,138
+12725,"claryville, ny",202610,2,125
+12726,"cochecton, ny",202610,22,86
+12729,"cuddebackville, ny",202610,4,109
+12732,"eldred, ny",202610,21,100
+12733,"fallsburg, ny",202610,2,163
+12734,"ferndale, ny",202610,4,66
+12736,"fremont center, ny",202610,3,171
+12737,"glen spey, ny",202610,27,79
+12738,"glen wild, ny",202610,3,116
+12740,"grahamsville, ny",202610,10,79
+12741,"hankins, ny",202610,6,97
+12742,"harris, ny",202610,2,78
+12743,"highland lake, ny",202610,7,136
+12746,"huguenot, ny",202610,5,78
+12747,"hurleyville, ny",202610,11,116
+12748,"jeffersonville, ny",202610,12,64
+12749,,202610,4,170
+12750,"kenoza lake, ny",202610,3,38
+12751,"kiamesha lake, ny",202610,10,50
+12752,"lake huntington, ny",202610,1,62
+12754,"liberty, ny",202610,29,93
+12758,"livingston manor, ny",202610,39,88
+12759,"loch sheldrake, ny",202610,6,106
+12760,"long eddy, ny",202610,11,54
+12762,"mongaup valley, ny",202610,4,173
+12763,"mountain dale, ny",202610,8,50
+12764,"narrowsburg, ny",202610,28,139
+12765,"neversink, ny",202610,5,95
+12766,"north branch, ny",202610,4,178
+12767,,202610,1,65
+12768,"parksville, ny",202610,13,122
+12769,,202610,1,160
+12770,"pond eddy, ny",202610,3,144
+12771,"port jervis, ny",202610,56,51
+12775,"rock hill, ny",202610,30,78
+12776,"roscoe, ny",202610,28,71
+12777,"forestburgh, ny",202610,11,92
+12778,"smallwood, ny",202610,17,127
+12779,"south fallsburg, ny",202610,12,116
+12780,"sparrow bush, ny",202610,14,80
+12783,"swan lake, ny",202610,16,111
+12785,"westbrookville, ny",202610,1,4
+12786,"white lake, ny",202610,12,89
+12787,"white sulphur springs, ny",202610,1,177
+12788,"woodbourne, ny",202610,15,105
+12789,"woodridge, ny",202610,16,92
+12790,"wurtsboro, ny",202610,47,75
+12791,"youngsville, ny",202610,4,118
+12792,"yulan, ny",202610,5,75
+12801,"glens falls, ny",202610,19,58
+12803,"south glens falls, ny",202610,7,57
+12804,"queensbury, ny",202610,54,52
+12808,"adirondack, ny",202610,6,104
+12809,"argyle, ny",202610,14,63
+12810,"athol, ny",202610,2,25
+12811,"bakers mills, ny",202610,0,52
+12814,"bolton landing, ny",202610,26,88
+12815,"brant lake, ny",202610,8,37
+12816,"cambridge, ny",202610,7,54
+12817,"chestertown, ny",202610,25,85
+12819,"clemons, ny",202610,1,11
+12820,,202610,1,32
+12821,"comstock, ny",202610,1,61
+12822,"corinth, ny",202610,28,99
+12823,"cossayuna, ny",202610,1,15
+12824,"diamond point, ny",202610,6,77
+12827,"fort ann, ny",202610,5,93
+12828,"fort edward, ny",202610,18,67
+12831,"gansevoort, ny",202610,40,88
+12832,"granville, ny",202610,34,73
+12833,"greenfield center, ny",202610,13,32
+12834,"greenwich, ny",202610,11,49
+12835,"hadley, ny",202610,18,71
+12836,"hague, ny",202610,5,58
+12837,"hampton, ny",202610,5,48
+12838,"hartford, ny",202610,1,13
+12839,"hudson falls, ny",202610,19,50
+12842,"indian lake, ny",202610,15,91
+12843,"johnsburg, ny",202610,5,39
+12844,"kattskill bay, ny",202610,2,59
+12845,"lake george, ny",202610,69,116
+12846,"lake luzerne, ny",202610,21,84
+12847,"long lake, ny",202610,12,102
+12849,"middle granville, ny",202610,1,128
+12850,"middle grove, ny",202610,9,45
+12851,"minerva, ny",202610,4,83
+12852,"newcomb, ny",202610,10,30
+12853,"north creek, ny",202610,13,106
+12855,"north hudson, ny",202610,3,80
+12856,"north river, ny",202610,1,122
+12857,"olmstedville, ny",202610,3,104
+12858,"paradox, ny",202610,0,360
+12859,"porter corners, ny",202610,2,15
+12860,"pottersville, ny",202610,4,130
+12861,"putnam station, ny",202610,4,136
+12863,"rock city falls, ny",202610,6,157
+12865,"salem, ny",202610,13,42
+12866,"saratoga springs, ny",202610,176,59
+12870,"schroon lake, ny",202610,19,67
+12871,"schuylerville, ny",202610,8,98
+12873,"shushan, ny",202610,2,50
+12874,"silver bay, ny",202610,1,0
+12878,"stony creek, ny",202610,2,40
+12883,"ticonderoga, ny",202610,24,67
+12884,"victory mills, ny",202610,1,16
+12885,"warrensburg, ny",202610,24,73
+12886,"wevertown, ny",202610,2,86
+12887,"whitehall, ny",202610,16,37
+12901,"plattsburgh, ny",202610,61,61
+12903,"plattsburgh, ny",202610,7,29
+12910,"altona, ny",202610,3,194
+12912,"au sable forks, ny",202610,10,88
+12913,"bloomingdale, ny",202610,3,67
+12914,"bombay, ny",202610,4,42
+12916,"brushton, ny",202610,3,105
+12917,"burke, ny",202610,5,116
+12918,"cadyville, ny",202610,5,86
+12919,"champlain, ny",202610,13,24
+12920,"chateaugay, ny",202610,11,107
+12921,"chazy, ny",202610,10,93
+12922,"childwold, ny",202610,0,0
+12923,"churubusco, ny",202610,1,29
+12926,"constable, ny",202610,6,88
+12927,"cranberry lake, ny",202610,2,88
+12928,"crown point, ny",202610,15,83
+12929,,202610,6,70
+12930,"dickinson center, ny",202610,2,191
+12932,"elizabethtown, ny",202610,12,42
+12934,"ellenburg center, ny",202610,2,101
+12935,"ellenburg depot, ny",202610,5,97
+12936,"essex, ny",202610,13,153
+12937,"fort covington, ny",202610,4,61
+12939,,202610,1,136
+12941,"jay, ny",202610,24,100
+12942,"keene, ny",202610,12,123
+12943,"keene valley, ny",202610,6,132
+12944,"keeseville, ny",202610,23,49
+12945,"lake clear, ny",202610,1,12
+12946,"lake placid, ny",202610,77,102
+12950,"lewis, ny",202610,3,110
+12952,"lyon mountain, ny",202610,2,44
+12953,"malone, ny",202610,46,91
+12955,"lyon mountain, ny",202610,4,96
+12956,"mineville, ny",202610,2,25
+12957,"moira, ny",202610,4,116
+12958,"mooers, ny",202610,6,61
+12959,"mooers forks, ny",202610,4,160
+12960,"moriah, ny",202610,4,77
+12962,"morrisonville, ny",202610,21,73
+12965,"nicholville, ny",202610,2,186
+12966,"north bangor, ny",202610,7,92
+12967,"north lawrence, ny",202610,3,85
+12969,"owls head, ny",202610,5,121
+12970,"paul smiths, ny",202610,4,22
+12972,"peru, ny",202610,17,64
+12973,"piercefield, ny",202610,0,70
+12974,"port henry, ny",202610,11,135
+12975,,202610,2,92
+12976,"rainbow lake, ny",202610,1,129
+12978,"redford, ny",202610,3,16
+12979,"rouses point, ny",202610,7,62
+12980,"saint regis falls, ny",202610,9,140
+12981,"saranac, ny",202610,6,52
+12983,"saranac lake, ny",202610,33,85
+12985,"schuyler falls, ny",202610,1,89
+12986,"tupper lake, ny",202610,28,89
+12987,"upper jay, ny",202610,1,158
+12989,"vermontville, ny",202610,8,134
+12992,"west chazy, ny",202610,8,101
+12993,"westport, ny",202610,5,135
+12996,"willsboro, ny",202610,11,57
+12997,"wilmington, ny",202610,19,74
+12998,"witherbee, ny",202610,2,40
+13021,"auburn, ny",202610,98,54
+13024,,202610,0,78
+13026,"aurora, ny",202610,5,93
+13027,"baldwinsville, ny",202610,87,56
+13028,"bernhards bay, ny",202610,8,74
+13029,"brewerton, ny",202610,13,68
+13030,"bridgeport, ny",202610,12,37
+13031,"camillus, ny",202610,23,48
+13032,"canastota, ny",202610,28,54
+13033,"cato, ny",202610,3,55
+13034,"cayuga, ny",202610,11,46
+13035,"cazenovia, ny",202610,21,83
+13036,"central square, ny",202610,14,42
+13037,"chittenango, ny",202610,31,60
+13039,"cicero, ny",202610,33,45
+13040,"cincinnatus, ny",202610,9,62
+13041,"clay, ny",202610,32,36
+13042,"cleveland, ny",202610,12,74
+13044,"constantia, ny",202610,5,124
+13045,"cortland, ny",202610,48,52
+13052,"de ruyter, ny",202610,5,29
+13053,"dryden, ny",202610,12,67
+13054,"durhamville, ny",202610,1,62
+13057,"east syracuse, ny",202610,19,46
+13060,"elbridge, ny",202610,2,119
+13061,"erieville, ny",202610,4,64
+13062,,202610,1,17
+13063,"fabius, ny",202610,1,39
+13064,,202610,1,0
+13065,"fayette, ny",202610,0,75
+13066,"fayetteville, ny",202610,31,27
+13068,"freeville, ny",202610,11,37
+13069,"fulton, ny",202610,40,36
+13071,"genoa, ny",202610,2,11
+13072,"georgetown, ny",202610,2,86
+13073,"groton, ny",202610,9,58
+13074,"hannibal, ny",202610,1,79
+13076,"hastings, ny",202610,2,9
+13077,"homer, ny",202610,13,56
+13078,"jamesville, ny",202610,18,79
+13080,"jordan, ny",202610,11,80
+13081,"king ferry, ny",202610,7,41
+13082,"kirkville, ny",202610,8,64
+13083,"lacona, ny",202610,10,89
+13084,"la fayette, ny",202610,5,33
+13088,"liverpool, ny",202610,22,59
+13090,"liverpool, ny",202610,27,51
+13092,"locke, ny",202610,4,48
+13101,"mc graw, ny",202610,4,171
+13104,"manlius, ny",202610,27,53
+13108,"marcellus, ny",202610,11,41
+13110,"marietta, ny",202610,6,46
+13111,"martville, ny",202610,1,53
+13112,"memphis, ny",202610,2,30
+13114,"mexico, ny",202610,10,45
+13115,"minetto, ny",202610,2,14
+13116,"minoa, ny",202610,13,93
+13118,"moravia, ny",202610,14,72
+13120,"nedrow, ny",202610,2,19
+13122,"new woodstock, ny",202610,3,24
+13126,"oswego, ny",202610,74,62
+13131,"parish, ny",202610,7,71
+13132,"pennellville, ny",202610,10,80
+13135,"phoenix, ny",202610,11,58
+13136,"pitcher, ny",202610,1,86
+13138,,202610,1,55
+13140,"port byron, ny",202610,2,85
+13141,"preble, ny",202610,1,33
+13142,"pulaski, ny",202610,32,67
+13143,"red creek, ny",202610,2,96
+13144,"richland, ny",202610,12,56
+13145,"sandy creek, ny",202610,5,81
+13146,"savannah, ny",202610,1,54
+13148,"seneca falls, ny",202610,19,43
+13152,"skaneateles, ny",202610,45,39
+13153,"skaneateles falls, ny",202610,0,83
+13154,,202610,1,200
+13155,"south otselic, ny",202610,3,152
+13156,"sterling, ny",202610,5,60
+13157,"sylvan beach, ny",202610,13,79
+13158,"truxton, ny",202610,1,127
+13159,"tully, ny",202610,10,32
+13160,"union springs, ny",202610,4,54
+13162,"verona beach, ny",202610,1,107
+13164,"warners, ny",202610,2,45
+13165,"waterloo, ny",202610,11,36
+13166,"weedsport, ny",202610,11,68
+13167,"west monroe, ny",202610,2,46
+13202,"syracuse, ny",202610,2,23
+13203,"syracuse, ny",202610,11,73
+13204,"syracuse, ny",202610,42,243
+13205,"syracuse, ny",202610,35,57
+13206,"syracuse, ny",202610,24,38
+13207,"syracuse, ny",202610,27,59
+13208,"syracuse, ny",202610,19,57
+13209,"syracuse, ny",202610,17,26
+13210,"syracuse, ny",202610,21,40
+13211,"syracuse, ny",202610,9,53
+13212,"syracuse, ny",202610,16,17
+13214,"syracuse, ny",202610,12,54
+13215,"syracuse, ny",202610,26,51
+13219,"syracuse, ny",202610,16,15
+13224,"syracuse, ny",202610,10,20
+13302,"altmar, ny",202610,13,92
+13303,"ava, ny",202610,8,53
+13304,"barneveld, ny",202610,8,72
+13308,"blossvale, ny",202610,15,74
+13309,"boonville, ny",202610,22,51
+13310,"bouckville, ny",202610,2,52
+13312,"brantingham, ny",202610,3,188
+13313,"bridgewater, ny",202610,2,9
+13315,"burlington flats, ny",202610,4,101
+13316,"camden, ny",202610,31,63
+13317,"canajoharie, ny",202610,14,110
+13318,"cassville, ny",202610,1,170
+13320,"cherry valley, ny",202610,11,43
+13321,"clark mills, ny",202610,1,30
+13322,"clayville, ny",202610,6,43
+13323,"clinton, ny",202610,21,78
+13324,"cold brook, ny",202610,19,79
+13325,"constableville, ny",202610,5,36
+13326,"cooperstown, ny",202610,38,74
+13327,"croghan, ny",202610,11,92
+13328,"deansboro, ny",202610,6,88
+13329,"dolgeville, ny",202610,27,78
+13331,"eagle bay, ny",202610,3,50
+13332,"earlville, ny",202610,6,73
+13333,"east springfield, ny",202610,3,88
+13334,"eaton, ny",202610,2,8
+13335,"edmeston, ny",202610,4,110
+13337,"fly creek, ny",202610,9,84
+13338,"forestport, ny",202610,22,58
+13339,"fort plain, ny",202610,21,76
+13340,"frankfort, ny",202610,15,66
+13342,"garrattsville, ny",202610,2,86
+13343,"glenfield, ny",202610,12,95
+13345,"greig, ny",202610,1,254
+13346,"hamilton, ny",202610,28,135
+13348,"hartwick, ny",202610,7,121
+13350,"herkimer, ny",202610,28,65
+13352,,202610,2,24
+13353,"hoffmeister, ny",202610,1,141
+13354,"holland patent, ny",202610,8,70
+13355,"hubbardsville, ny",202610,1,25
+13357,"ilion, ny",202610,30,51
+13360,"inlet, ny",202610,10,46
+13361,"jordanville, ny",202610,1,26
+13363,"lee center, ny",202610,6,34
+13364,"leonardsville, ny",202610,2,117
+13365,"little falls, ny",202610,40,75
+13367,"lowville, ny",202610,15,59
+13368,"lyons falls, ny",202610,7,73
+13402,"madison, ny",202610,1,91
+13403,"marcy, ny",202610,12,64
+13404,,202610,1,61
+13406,"middleville, ny",202610,1,88
+13407,"mohawk, ny",202610,4,37
+13408,"morrisville, ny",202610,5,27
+13409,"munnsville, ny",202610,2,70
+13410,"nelliston, ny",202610,3,96
+13411,"new berlin, ny",202610,12,39
+13413,"new hartford, ny",202610,40,73
+13415,"new lisbon, ny",202610,1,272
+13416,"newport, ny",202610,10,95
+13417,"new york mills, ny",202610,2,91
+13420,"old forge, ny",202610,28,85
+13421,"oneida, ny",202610,31,44
+13424,"oriskany, ny",202610,5,88
+13425,"oriskany falls, ny",202610,6,55
+13428,"palatine bridge, ny",202610,5,44
+13431,"poland, ny",202610,2,2
+13433,"port leyden, ny",202610,1,144
+13435,"prospect, ny",202610,2,0
+13436,"raquette lake, ny",202610,1,0
+13437,"redfield, ny",202610,7,27
+13438,"remsen, ny",202610,21,59
+13439,"richfield springs, ny",202610,13,95
+13440,"rome, ny",202610,103,53
+13450,"roseboom, ny",202610,3,113
+13452,"saint johnsville, ny",202610,10,39
+13454,"salisbury center, ny",202610,4,17
+13456,"sauquoit, ny",202610,10,62
+13457,,202610,1,8
+13459,"sharon springs, ny",202610,5,65
+13460,"sherburne, ny",202610,7,33
+13461,"sherrill, ny",202610,5,31
+13464,"smyrna, ny",202610,2,128
+13468,"springfield center, ny",202610,2,116
+13469,"stittville, ny",202610,1,43
+13470,"stratford, ny",202610,2,59
+13471,"taberg, ny",202610,4,82
+13472,"thendara, ny",202610,4,31
+13473,"turin, ny",202610,2,2
+13476,"vernon, ny",202610,3,64
+13477,"vernon center, ny",202610,1,79
+13478,"verona, ny",202610,10,38
+13480,"waterville, ny",202610,11,70
+13485,"west edmeston, ny",202610,5,78
+13486,"westernville, ny",202610,3,178
+13488,"westford, ny",202610,3,89
+13489,"west leyden, ny",202610,1,324
+13490,"westmoreland, ny",202610,5,134
+13491,"west winfield, ny",202610,9,59
+13492,"whitesboro, ny",202610,22,54
+13493,"williamstown, ny",202610,9,135
+13494,"woodgate, ny",202610,2,89
+13495,"yorkville, ny",202610,2,109
+13501,"utica, ny",202610,65,52
+13502,"utica, ny",202610,50,61
+13601,"watertown, ny",202610,155,72
+13605,"adams, ny",202610,9,63
+13606,"adams center, ny",202610,10,80
+13607,"alexandria bay, ny",202610,28,131
+13608,"antwerp, ny",202610,10,115
+13612,"black river, ny",202610,10,51
+13613,"brasher falls, ny",202610,15,59
+13615,"brownville, ny",202610,6,75
+13616,"calcium, ny",202610,1,63
+13617,"canton, ny",202610,34,71
+13618,"cape vincent, ny",202610,10,145
+13619,"carthage, ny",202610,61,74
+13620,"castorland, ny",202610,1,150
+13621,"chase mills, ny",202610,4,114
+13622,"chaumont, ny",202610,12,49
+13624,"clayton, ny",202610,30,74
+13625,"colton, ny",202610,5,97
+13626,"copenhagen, ny",202610,14,80
+13628,"deferiet, ny",202610,2,82
+13630,"de kalb junction, ny",202610,6,61
+13633,"de peyster, ny",202610,2,100
+13634,"dexter, ny",202610,18,82
+13635,"edwards, ny",202610,5,136
+13636,"ellisburg, ny",202610,2,149
+13637,"evans mills, ny",202610,13,83
+13638,"felts mills, ny",202610,2,84
+13639,"fine, ny",202610,1,0
+13640,"wellesley island, ny",202610,13,94
+13642,"gouverneur, ny",202610,34,74
+13643,,202610,0,138
+13646,"hammond, ny",202610,24,95
+13647,"hannawa falls, ny",202610,1,147
+13648,"harrisville, ny",202610,20,60
+13649,"helena, ny",202610,1,86
+13650,"henderson, ny",202610,6,47
+13651,"henderson harbor, ny",202610,2,173
+13652,"hermon, ny",202610,7,121
+13654,"heuvelton, ny",202610,5,107
+13655,"hogansburg, ny",202610,1,11
+13656,"la fargeville, ny",202610,5,89
+13658,"lisbon, ny",202610,8,99
+13659,"lorraine, ny",202610,6,78
+13660,"madrid, ny",202610,4,34
+13661,"mannsville, ny",202610,2,13
+13662,"massena, ny",202610,78,84
+13664,"morristown, ny",202610,7,78
+13665,"natural bridge, ny",202610,3,211
+13666,"newton falls, ny",202610,2,111
+13667,"norfolk, ny",202610,15,73
+13668,"norwood, ny",202610,22,73
+13669,"ogdensburg, ny",202610,63,93
+13670,"oswegatchie, ny",202610,2,110
+13672,"parishville, ny",202610,3,145
+13673,"philadelphia, ny",202610,2,86
+13676,"potsdam, ny",202610,46,91
+13679,"redwood, ny",202610,7,107
+13680,"rensselaer falls, ny",202610,2,30
+13681,"richville, ny",202610,3,67
+13682,"rodman, ny",202610,1,169
+13684,"russell, ny",202610,3,76
+13685,"sackets harbor, ny",202610,11,98
+13687,"south colton, ny",202610,3,100
+13690,"star lake, ny",202610,2,110
+13691,"theresa, ny",202610,15,95
+13692,"thousand island park, ny",202610,1,49
+13693,"three mile bay, ny",202610,13,75
+13694,"waddington, ny",202610,5,76
+13695,"wanakena, ny",202610,1,22
+13697,"winthrop, ny",202610,6,38
+13730,"afton, ny",202610,10,122
+13731,"andes, ny",202610,19,122
+13732,"apalachin, ny",202610,10,29
+13733,"bainbridge, ny",202610,16,67
+13734,"barton, ny",202610,3,27
+13736,"berkshire, ny",202610,8,63
+13739,"bloomville, ny",202610,6,93
+13740,"bovina center, ny",202610,10,110
+13743,"candor, ny",202610,11,96
+13744,"castle creek, ny",202610,2,36
+13746,"chenango forks, ny",202610,7,99
+13748,"conklin, ny",202610,5,40
+13750,"davenport, ny",202610,2,194
+13752,"delancey, ny",202610,5,54
+13753,"delhi, ny",202610,22,59
+13754,"deposit, ny",202610,26,63
+13755,"downsville, ny",202610,9,60
+13756,"east branch, ny",202610,3,110
+13757,"east meredith, ny",202610,5,97
+13760,"endicott, ny",202610,74,43
+13775,"franklin, ny",202610,13,67
+13776,"gilbertsville, ny",202610,5,74
+13777,"glen aubrey, ny",202610,2,70
+13778,"greene, ny",202610,9,78
+13780,"guilford, ny",202610,8,93
+13782,"hamden, ny",202610,11,124
+13783,"hancock, ny",202610,26,79
+13786,"harpersfield, ny",202610,5,37
+13787,"harpursville, ny",202610,2,122
+13788,"hobart, ny",202610,15,38
+13790,"johnson city, ny",202610,38,50
+13795,"kirkwood, ny",202610,8,44
+13796,"laurens, ny",202610,3,22
+13797,"lisle, ny",202610,2,81
+13801,"mc donough, ny",202610,9,95
+13803,"marathon, ny",202610,6,82
+13804,"masonville, ny",202610,3,91
+13806,"meridale, ny",202610,1,6
+13807,"milford, ny",202610,8,40
+13808,"morris, ny",202610,6,72
+13809,"mount upton, ny",202610,5,181
+13810,"mount vision, ny",202610,2,91
+13811,"newark valley, ny",202610,7,78
+13812,"nichols, ny",202610,8,20
+13813,"nineveh, ny",202610,2,92
+13814,,202610,1,0
+13815,"norwich, ny",202610,39,76
+13820,"oneonta, ny",202610,60,78
+13825,"otego, ny",202610,13,36
+13827,"owego, ny",202610,17,43
+13830,"oxford, ny",202610,13,91
+13832,"plymouth, ny",202610,3,31
+13833,"port crane, ny",202610,3,45
+13835,"richford, ny",202610,1,74
+13838,"sidney, ny",202610,14,36
+13839,"sidney center, ny",202610,7,126
+13842,"south kortright, ny",202610,2,186
+13843,"south new berlin, ny",202610,8,79
+13844,"south plymouth, ny",202610,4,57
+13846,"treadwell, ny",202610,1,61
+13849,"unadilla, ny",202610,18,59
+13850,"vestal, ny",202610,44,45
+13856,"walton, ny",202610,29,123
+13859,"wells bridge, ny",202610,1,66
+13860,"west davenport, ny",202610,2,57
+13861,"west oneonta, ny",202610,1,99
+13862,"whitney point, ny",202610,5,78
+13863,"willet, ny",202610,1,150
+13864,"willseyville, ny",202610,3,22
+13865,"windsor, ny",202610,16,60
+13901,"binghamton, ny",202610,32,35
+13903,"binghamton, ny",202610,40,57
+13904,"binghamton, ny",202610,17,37
+13905,"binghamton, ny",202610,53,51
+14001,"akron, ny",202610,8,79
+14004,"alden, ny",202610,14,59
+14005,"alexander, ny",202610,2,57
+14006,"angola, ny",202610,30,32
+14008,"appleton, ny",202610,1,11
+14009,"arcade, ny",202610,5,48
+14011,"attica, ny",202610,3,42
+14012,"barker, ny",202610,10,47
+14013,"basom, ny",202610,3,30
+14020,"batavia, ny",202610,36,43
+14024,"bliss, ny",202610,7,32
+14025,"boston, ny",202610,3,37
+14026,"bowmansville, ny",202610,2,50
+14027,,202610,1,31
+14028,"burt, ny",202610,1,28
+14030,"chaffee, ny",202610,0,152
+14031,"clarence, ny",202610,18,58
+14032,"clarence center, ny",202610,18,38
+14033,"colden, ny",202610,5,57
+14034,"collins, ny",202610,3,13
+14036,"corfu, ny",202610,8,42
+14037,"cowlesville, ny",202610,2,14
+14040,"darien center, ny",202610,3,35
+14042,"delevan, ny",202610,3,74
+14043,"depew, ny",202610,33,38
+14047,"derby, ny",202610,13,63
+14048,"dunkirk, ny",202610,33,71
+14051,"east amherst, ny",202610,48,38
+14052,"east aurora, ny",202610,22,32
+14054,"east bethany, ny",202610,2,74
+14055,"east concord, ny",202610,1,66
+14057,"eden, ny",202610,12,35
+14058,"elba, ny",202610,0,67
+14059,"elma, ny",202610,11,47
+14060,"farmersville station, ny",202610,1,12
+14062,"forestville, ny",202610,3,45
+14063,"fredonia, ny",202610,47,77
+14065,"freedom, ny",202610,1,81
+14066,"gainesville, ny",202610,2,61
+14067,"gasport, ny",202610,7,49
+14068,"getzville, ny",202610,12,39
+14069,"glenwood, ny",202610,1,1
+14070,"gowanda, ny",202610,8,31
+14072,"grand island, ny",202610,33,41
+14075,"hamburg, ny",202610,71,44
+14080,"holland, ny",202610,6,29
+14081,"irving, ny",202610,6,77
+14082,"java center, ny",202610,1,27
+14085,"lake view, ny",202610,12,41
+14086,"lancaster, ny",202610,51,26
+14091,"lawtons, ny",202610,1,14
+14092,"lewiston, ny",202610,27,31
+14094,"lockport, ny",202610,94,37
+14098,"lyndonville, ny",202610,9,64
+14101,"machias, ny",202610,4,20
+14102,"marilla, ny",202610,0,70
+14103,"medina, ny",202610,17,33
+14105,"middleport, ny",202610,5,49
+14108,"newfane, ny",202610,9,37
+14111,"north collins, ny",202610,3,32
+14113,"north java, ny",202610,1,15
+14120,"north tonawanda, ny",202610,54,29
+14125,"oakfield, ny",202610,5,57
+14126,"olcott, ny",202610,3,58
+14127,"orchard park, ny",202610,68,44
+14129,"perrysburg, ny",202610,1,64
+14130,,202610,1,9
+14131,"ransomville, ny",202610,6,92
+14132,"sanborn, ny",202610,5,17
+14134,"sardinia, ny",202610,1,1
+14135,"sheridan, ny",202610,1,38
+14136,"silver creek, ny",202610,9,70
+14138,"south dayton, ny",202610,2,39
+14139,"south wales, ny",202610,5,32
+14141,"springville, ny",202610,16,57
+14143,"stafford, ny",202610,3,15
+14145,"strykersville, ny",202610,0,92
+14150,"tonawanda, ny",202610,43,33
+14167,"varysburg, ny",202610,4,77
+14169,,202610,0,124
+14170,"west falls, ny",202610,5,108
+14171,"west valley, ny",202610,3,39
+14172,"wilson, ny",202610,9,81
+14173,"yorkshire, ny",202610,1,10
+14174,"youngstown, ny",202610,15,78
+14201,"buffalo, ny",202610,18,72
+14202,"buffalo, ny",202610,22,59
+14203,"buffalo, ny",202610,18,61
+14204,"buffalo, ny",202610,9,64
+14206,"buffalo, ny",202610,49,51
+14207,"buffalo, ny",202610,50,58
+14208,"buffalo, ny",202610,14,87
+14209,"buffalo, ny",202610,15,69
+14210,"buffalo, ny",202610,19,66
+14211,"buffalo, ny",202610,47,73
+14212,"buffalo, ny",202610,15,53
+14213,"buffalo, ny",202610,42,41
+14214,"buffalo, ny",202610,31,43
+14215,"buffalo, ny",202610,86,48
+14216,"buffalo, ny",202610,22,30
+14217,"buffalo, ny",202610,27,40
+14218,"buffalo, ny",202610,24,30
+14219,"buffalo, ny",202610,12,24
+14220,"buffalo, ny",202610,44,35
+14221,"buffalo, ny",202610,107,35
+14222,"buffalo, ny",202610,16,45
+14223,"buffalo, ny",202610,36,19
+14224,"buffalo, ny",202610,57,36
+14225,"buffalo, ny",202610,66,33
+14226,"buffalo, ny",202610,51,34
+14227,"buffalo, ny",202610,30,27
+14228,"buffalo, ny",202610,28,30
+14301,"niagara falls, ny",202610,58,58
+14303,"niagara falls, ny",202610,28,70
+14304,"niagara falls, ny",202610,62,39
+14305,"niagara falls, ny",202610,69,62
+14411,"albion, ny",202610,18,26
+14414,"avon, ny",202610,7,36
+14415,"bellona, ny",202610,1,67
+14416,"bergen, ny",202610,3,17
+14418,"branchport, ny",202610,2,63
+14420,"brockport, ny",202610,22,26
+14422,"byron, ny",202610,1,45
+14423,"caledonia, ny",202610,2,31
+14424,"canandaigua, ny",202610,69,47
+14425,"farmington, ny",202610,17,62
+14427,"castile, ny",202610,6,34
+14428,"churchville, ny",202610,4,16
+14432,"clifton springs, ny",202610,5,33
+14433,"clyde, ny",202610,6,73
+14435,"conesus, ny",202610,3,74
+14437,"dansville, ny",202610,10,36
+14441,"dresden, ny",202610,2,38
+14445,"east rochester, ny",202610,7,31
+14450,"fairport, ny",202610,34,21
+14454,"geneseo, ny",202610,13,40
+14456,"geneva, ny",202610,55,59
+14462,"groveland, ny",202610,1,2
+14464,"hamlin, ny",202610,12,47
+14466,"hemlock, ny",202610,1,55
+14467,"henrietta, ny",202610,8,16
+14468,"hilton, ny",202610,37,38
+14469,"bloomfield, ny",202610,8,35
+14470,"holley, ny",202610,11,28
+14471,"honeoye, ny",202610,7,29
+14472,"honeoye falls, ny",202610,16,30
+14475,"ionia, ny",202610,1,6
+14476,"kendall, ny",202610,2,76
+14477,"kent, ny",202610,3,43
+14478,"keuka park, ny",202610,5,37
+14479,"knowlesville, ny",202610,1,96
+14481,"leicester, ny",202610,1,45
+14482,"le roy, ny",202610,10,32
+14485,"lima, ny",202610,2,48
+14487,"livonia, ny",202610,7,54
+14489,"lyons, ny",202610,8,63
+14502,"macedon, ny",202610,11,15
+14504,"manchester, ny",202610,1,4
+14505,"marion, ny",202610,3,15
+14506,"mendon, ny",202610,5,240
+14507,"middlesex, ny",202610,4,65
+14510,"mount morris, ny",202610,4,44
+14511,"mumford, ny",202610,1,57
+14512,"naples, ny",202610,13,68
+14513,"newark, ny",202610,16,28
+14514,"north chili, ny",202610,7,31
+14515,,202610,1,147
+14516,"north rose, ny",202610,2,102
+14517,"nunda, ny",202610,4,46
+14519,"ontario, ny",202610,20,48
+14521,"ovid, ny",202610,7,71
+14522,"palmyra, ny",202610,8,38
+14525,"pavilion, ny",202610,2,7
+14526,"penfield, ny",202610,23,35
+14527,"penn yan, ny",202610,27,87
+14530,"perry, ny",202610,5,59
+14532,"phelps, ny",202610,6,61
+14533,"piffard, ny",202610,2,97
+14534,"pittsford, ny",202610,46,29
+14536,"portageville, ny",202610,1,79
+14541,"romulus, ny",202610,9,36
+14542,,202610,1,63
+14543,"rush, ny",202610,7,23
+14544,"rushville, ny",202610,5,49
+14545,"scottsburg, ny",202610,1,305
+14546,"scottsville, ny",202610,3,17
+14547,,202610,1,1
+14548,"shortsville, ny",202610,1,39
+14549,"silver lake, ny",202610,1,13
+14550,"silver springs, ny",202610,1,42
+14551,"sodus, ny",202610,7,32
+14555,"sodus point, ny",202610,11,110
+14559,"spencerport, ny",202610,24,54
+14560,"springwater, ny",202610,1,90
+14561,"stanley, ny",202610,5,18
+14564,"victor, ny",202610,43,40
+14568,"walworth, ny",202610,10,17
+14569,"warsaw, ny",202610,12,79
+14571,"waterport, ny",202610,4,57
+14572,"wayland, ny",202610,7,33
+14580,"webster, ny",202610,67,27
+14586,"west henrietta, ny",202610,11,19
+14589,"williamson, ny",202610,16,45
+14590,"wolcott, ny",202610,17,87
+14591,"wyoming, ny",202610,1,51
+14592,"york, ny",202610,1,76
+14604,"rochester, ny",202610,1,229
+14605,"rochester, ny",202610,9,43
+14606,"rochester, ny",202610,38,24
+14607,"rochester, ny",202610,9,23
+14608,"rochester, ny",202610,19,25
+14609,"rochester, ny",202610,45,34
+14610,"rochester, ny",202610,14,24
+14611,"rochester, ny",202610,28,25
+14612,"rochester, ny",202610,29,32
+14613,"rochester, ny",202610,19,29
+14615,"rochester, ny",202610,12,20
+14616,"rochester, ny",202610,31,26
+14617,"rochester, ny",202610,29,16
+14618,"rochester, ny",202610,32,33
+14619,"rochester, ny",202610,15,24
+14620,"rochester, ny",202610,18,29
+14621,"rochester, ny",202610,44,46
+14622,"rochester, ny",202610,19,26
+14623,"rochester, ny",202610,10,17
+14624,"rochester, ny",202610,28,23
+14625,"rochester, ny",202610,15,13
+14626,"rochester, ny",202610,32,35
+14701,"jamestown, ny",202610,96,54
+14706,"allegany, ny",202610,9,33
+14707,"allentown, ny",202610,1,37
+14709,"angelica, ny",202610,11,63
+14710,"ashville, ny",202610,18,77
+14711,"belfast, ny",202610,2,150
+14712,"bemus point, ny",202610,20,101
+14714,"black creek, ny",202610,0,116
+14715,"bolivar, ny",202610,7,52
+14716,"brocton, ny",202610,5,82
+14717,"caneadea, ny",202610,4,114
+14718,"cassadaga, ny",202610,6,20
+14719,"cattaraugus, ny",202610,6,95
+14720,"celoron, ny",202610,1,113
+14722,"chautauqua, ny",202610,3,57
+14723,"cherry creek, ny",202610,3,51
+14724,"clymer, ny",202610,26,80
+14726,"conewango valley, ny",202610,2,62
+14727,"cuba, ny",202610,14,42
+14728,"dewittville, ny",202610,13,117
+14729,"east otto, ny",202610,5,43
+14731,"ellicottville, ny",202610,85,75
+14732,,202610,1,45
+14733,"falconer, ny",202610,6,47
+14735,"fillmore, ny",202610,9,99
+14736,"findley lake, ny",202610,6,128
+14737,"franklinville, ny",202610,13,80
+14738,"frewsburg, ny",202610,12,41
+14739,"friendship, ny",202610,5,105
+14740,"gerry, ny",202610,2,50
+14741,"great valley, ny",202610,8,78
+14742,,202610,3,98
+14743,"hinsdale, ny",202610,2,103
+14744,"houghton, ny",202610,4,46
+14747,"kennedy, ny",202610,5,55
+14750,"lakewood, ny",202610,22,79
+14752,"lily dale, ny",202610,2,57
+14753,"limestone, ny",202610,0,89
+14754,"little genesee, ny",202610,2,98
+14755,"little valley, ny",202610,8,68
+14757,"mayville, ny",202610,12,134
+14760,"olean, ny",202610,51,55
+14766,,202610,1,52
+14767,"panama, ny",202610,4,52
+14769,"portland, ny",202610,2,68
+14770,"portville, ny",202610,5,92
+14772,"randolph, ny",202610,9,66
+14775,"ripley, ny",202610,3,81
+14777,"rushford, ny",202610,3,24
+14779,"salamanca, ny",202610,13,68
+14781,"sherman, ny",202610,3,101
+14782,"sinclairville, ny",202610,4,131
+14784,"stockton, ny",202610,5,74
+14785,"stow, ny",202610,2,32
+14787,"westfield, ny",202610,14,60
+14801,"addison, ny",202610,10,54
+14802,"alfred, ny",202610,4,43
+14803,"alfred station, ny",202610,3,94
+14804,"almond, ny",202610,8,75
+14805,"alpine, ny",202610,4,42
+14806,"andover, ny",202610,6,129
+14807,"arkport, ny",202610,2,55
+14808,"atlanta, ny",202610,1,60
+14809,"avoca, ny",202610,6,40
+14810,"bath, ny",202610,31,69
+14812,"beaver dams, ny",202610,7,95
+14813,"belmont, ny",202610,8,51
+14814,"big flats, ny",202610,7,125
+14815,"bradford, ny",202610,8,93
+14816,"breesport, ny",202610,2,131
+14817,"brooktondale, ny",202610,7,133
+14818,"burdett, ny",202610,9,58
+14819,"cameron, ny",202610,2,35
+14821,"campbell, ny",202610,7,52
+14822,"canaseraga, ny",202610,3,68
+14823,"canisteo, ny",202610,12,61
+14824,"cayuta, ny",202610,0,63
+14825,"chemung, ny",202610,3,24
+14826,"cohocton, ny",202610,5,105
+14830,"corning, ny",202610,47,46
+14837,"dundee, ny",202610,16,72
+14838,"erin, ny",202610,4,74
+14839,"greenwood, ny",202610,1,16
+14840,"hammondsport, ny",202610,21,71
+14841,"hector, ny",202610,3,69
+14842,"himrod, ny",202610,6,132
+14843,"hornell, ny",202610,28,48
+14845,"horseheads, ny",202610,66,51
+14846,"hunt, ny",202610,0,159
+14847,"interlaken, ny",202610,5,31
+14850,"ithaca, ny",202610,129,59
+14854,,202610,1,25
+14855,"jasper, ny",202610,3,88
+14858,"lindley, ny",202610,3,12
+14859,"lockwood, ny",202610,3,123
+14860,"lodi, ny",202610,4,83
+14861,"lowman, ny",202610,1,38
+14864,"millport, ny",202610,5,86
+14865,"montour falls, ny",202610,5,50
+14867,"newfield, ny",202610,13,38
+14869,"odessa, ny",202610,4,80
+14870,"painted post, ny",202610,30,49
+14871,"pine city, ny",202610,13,68
+14872,"pine valley, ny",202610,2,82
+14873,"prattsburgh, ny",202610,4,38
+14876,,202610,1,30
+14877,"rexville, ny",202610,2,20
+14878,"rock stream, ny",202610,1,7
+14879,"savona, ny",202610,4,90
+14880,"scio, ny",202610,3,115
+14882,"lansing, ny",202610,9,104
+14883,"spencer, ny",202610,12,50
+14884,"swain, ny",202610,1,18
+14885,"troupsburg, ny",202610,1,67
+14886,"trumansburg, ny",202610,13,65
+14887,,202610,1,14
+14889,"van etten, ny",202610,4,121
+14891,"watkins glen, ny",202610,12,100
+14892,"waverly, ny",202610,24,70
+14894,"wellsburg, ny",202610,2,51
+14895,"wellsville, ny",202610,31,63
+14897,"whitesville, ny",202610,2,184
+14898,"woodhull, ny",202610,2,94
+14901,"elmira, ny",202610,37,73
+14903,"elmira, ny",202610,21,36
+14904,"elmira, ny",202610,53,54
+14905,"elmira, ny",202610,30,37

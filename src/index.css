@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Segoe UI", sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #efeae0;
+  color: #1c2430;
+  font-family: "Outfit", "Segoe UI", sans-serif;
+}
+
+.maplibregl-map,
+.maplibregl-ctrl {
+  font-family: inherit;
+}
+
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
+  background: rgb(255 255 255 / 72%);
+}
+
+.spot-pin {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+
+.spot-halo,
+.spot-halo-2 {
+  position: absolute;
+  inset: -8px;
+  border-radius: 999px;
+  background: rgb(157 28 28 / 40%);
+  animation: spot-pulse 1.7s ease-out infinite;
+}
+
+.spot-halo-2 {
+  animation-delay: 0.55s;
+}
+
+.spot-dot {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 20px;
+  height: 20px;
+  background: #9d1c1c;
+  border: 3px solid #fff;
+  border-radius: 999px;
+  box-shadow: 0 0 0 2px #14241c, 0 4px 12px rgb(20 24 32 / 45%);
+}
+
+.spot-label {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transform: translateX(-50%);
+  border-radius: 8px;
+  background: #14241c;
+  padding: 4px 8px;
+  color: #f6f1e8;
+  font-size: 12px;
+  font-weight: 560;
+  box-shadow: 0 8px 20px rgb(20 24 32 / 28%);
+}
+
+.spot-label::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  transform: translateX(-50%) rotate(45deg);
+  background: #14241c;
+}
+
+@keyframes spot-pulse {
+  0% {
+    transform: scale(0.55);
+    opacity: 0.75;
+  }
+  100% {
+    transform: scale(1.85);
+    opacity: 0;
+  }
+}
+
+input[type="range"] {
+  accent-color: #0e6b45;
+  width: 100%;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
