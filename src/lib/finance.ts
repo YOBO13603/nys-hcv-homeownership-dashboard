@@ -48,8 +48,10 @@ export function computeLedger(
   let programDpa = tract.localDpaCap;
   let dpaLabel = "County local cap";
   if (assumptions.dpaMode === "sonyma") {
-    programDpa = Math.min(15000, cents(price * 0.03));
-    dpaLabel = "NYS SONYMA DPAL · min($15,000, 3% of price)";
+    // HCR rule: the greater of $3,000 or 3% of price, and never more than $15,000.
+    // DPAL has no monthly payment, so it only reduces cash-to-close.
+    programDpa = Math.max(3000, Math.min(15000, cents(price * 0.03)));
+    dpaLabel = "NYS SONYMA DPAL · greater of $3,000 or 3% of price, capped at $15,000";
   } else if (assumptions.dpaMode === "custom") {
     programDpa = assumptions.customDpa;
     dpaLabel = "Custom DPA";
@@ -119,8 +121,6 @@ export function tractVisible(tract: Tract, controls: Controls): boolean {
   if (controls.county !== "all" && tract.countyName !== controls.county) return false;
   if (controls.wriOnly && !tract.wri) return false;
   if (tract.nriQuintile < controls.nriMin || tract.nriQuintile > controls.nriMax) return false;
-  if (controls.maxLlc < 100 && tract.llcOwnershipPct * 100 > controls.maxLlc) return false;
-  if (controls.maxPre1980 < 100 && tract.acsPre1980Pct * 100 > controls.maxPre1980) return false;
   if (controls.minListings > 0 && tract.activeListingsZip < controls.minListings) return false;
   return true;
 }

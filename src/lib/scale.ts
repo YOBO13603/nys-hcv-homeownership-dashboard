@@ -22,6 +22,9 @@ export type LayerPaint = {
   title: string;
 };
 
+const MONEY_STEPS = [100, 250, 500, 1000, 1500, 2000, 2500, 5000, 10000, 20000, 25000, 50000];
+const PERCENT_STEPS = [5, 10, 20, 25, 50];
+
 export function layerMetric(row: ScoredTract, layer: LayerId, riskMode: RiskMode): number {
   if (layer === "gap") return row.ledger.monthlyGap;
   if (layer === "cash") return row.ledger.netCashGap;
@@ -32,32 +35,106 @@ export function layerMetric(row: ScoredTract, layer: LayerId, riskMode: RiskMode
   return ((row.tract.llcOwnershipPct + row.tract.acsPre1980Pct) / 2) * 100;
 }
 
-function quantile(sorted: number[], p: number): number {
-  if (sorted.length === 0) return 0;
-  const index = (sorted.length - 1) * p;
-  const low = Math.floor(index);
-  const high = Math.ceil(index);
-  if (low === high) return sorted[low];
-  return sorted[low] * (high - index) + sorted[high] * (index - low);
+function roundNice(value: number): number {
+  return Math.round(value * 1000) / 1000;
 }
 
-function tighten(stops: PaintStop[]): PaintStop[] {
-  const next = stops.map((stop) => ({ ...stop }));
-  for (let i = 1; i < next.length; i += 1) {
-    if (next[i].value <= next[i - 1].value) next[i].value = next[i - 1].value + 1;
+function classEdges(min: number, max: number, steps: number[]): number[] {
+  let best: number[] | null = null;
+  let bestScore = Infinity;
+  for (const step of steps) {
+    let start = Math.floor(min / step) * step;
+    let end = Math.ceil(max / step) * step;
+    if (end <= start) end = start + step;
+    let classes = Math.round((end - start) / step);
+    while (classes < 5) {
+      if (end - max <= min - start) end += step;
+      else start -= step;
+      classes += 1;
+    }
+    if (classes > 7) continue;
+    const score = Math.abs(classes - 6) + step / 1_000_000;
+    if (score < bestScore) {
+      bestScore = score;
+      const edges: number[] = [];
+      for (let value = start; value <= end + step * 0.001; value += step) edges.push(roundNice(value));
+      best = edges;
+    }
   }
-  return next;
+  if (best && best.length >= 2) return best;
+  const step = steps[steps.length - 1];
+  const start = Math.floor(min / step) * step;
+  const end = Math.max(start + step * 5, Math.ceil(max / step) * step);
+  const edges: number[] = [];
+  for (let value = start; value <= end + step * 0.001 && edges.length < 8; value += step) {
+    edges.push(roundNice(value));
+  }
+  return edges;
 }
 
 function moneyLabel(value: number): string {
-  const sign = value < 0 ? "−" : "";
+  const sign = value < 0 ? "-" : "";
   return `${sign}$${Math.abs(Math.round(value)).toLocaleString("en-US")}`;
 }
 
-export function paintFor(layer: LayerId, rows: ScoredTract[], riskMode: RiskMode): LayerPaint {
-  const pool = rows.some((row) => row.visible) ? rows.filter((row) => row.visible) : rows;
-  const values = pool.map((row) => layerMetric(row, layer, riskMode)).sort((a, b) => a - b);
+function rangeLabels(edges: number[], kind: "money" | "percent"): string[] {
+  const labels: string[] = [];
+  for (let index = 0; index < edges.length - 1; index += 1) {
+    const start = edges[index];
+    const end = edges[index + 1];
+    labels.push(kind === "money" ? `${moneyLabel(start)} to ${moneyLabel(end)}` : `${start}–${end}%`);
+  }
+  return labels;
+}
 
+function sampleRamp(ramp: string[], count: number): string[] {
+  if (count <= 1) return [ramp[0]];
+  return Array.from({ length: count }, (_, index) => {
+    const slot = Math.round((index / (count - 1)) * (ramp.length - 1));
+    return ramp[slot];
+  });
+}
+
+function gapColors(edges: number[]): string[] {
+  const greens = ["#0e6b45", "#3d9a6e", "#8dceb4"];
+  const warms = ["#f4efe4", "#f3c48a", "#e39155", "#d2652b", "#9d1c1c"];
+  const classes = edges.length - 1;
+  const negative: number[] = [];
+  const positive: number[] = [];
+  for (let index = 0; index < classes; index += 1) {
+    if (edges[index + 1] <= 0) negative.push(index);
+    else positive.push(index);
+  }
+  const colors = new Array<string>(classes);
+  negative.forEach((index, order) => {
+    const slot = greens.length - negative.length + order;
+    colors[index] = greens[Math.max(0, Math.min(greens.length - 1, slot))];
+  });
+  positive.forEach((index, order) => {
+    colors[index] = warms[Math.min(warms.length - 1, order)];
+  });
+  return colors;
+}
+
+function stepped(
+  title: string,
+  edges: number[],
+  colors: string[],
+  kind: "money" | "percent",
+): LayerPaint {
+  const labels = rangeLabels(edges, kind);
+  return {
+    title,
+    spec: {
+      kind: "step",
+      defaultColor: colors[0],
+      stops: edges.slice(1, -1).map((at, index) => ({ at, color: colors[index + 1] ?? colors[colors.length - 1] })),
+    },
+    legend: labels.map((label, index) => ({ color: colors[index], label })),
+  };
+}
+
+export function paintFor(layer: LayerId, rows: ScoredTract[], riskMode: RiskMode): LayerPaint {
   if (layer === "opportunity") {
     return {
       title: "NRI quintile",
@@ -73,60 +150,31 @@ export function paintFor(layer: LayerId, rows: ScoredTract[], riskMode: RiskMode
     };
   }
 
+  const pool = rows.some((row) => row.visible) ? rows.filter((row) => row.visible) : rows;
+  const values = pool.map((row) => layerMetric(row, layer, riskMode));
+  const min = values.length ? Math.min(...values) : 0;
+  const max = values.length ? Math.max(...values) : 1;
+
   if (layer === "gap") {
-    const negatives = values.filter((value) => value < 0);
-    const low = negatives.length > 0 ? quantile(negatives, 0.2) : 0;
-    const high = Math.max(0, quantile(values, 0.9));
-    const stops: PaintStop[] = [];
-    if (low < -1) {
-      stops.push({ value: low, color: "#0e6b45" }, { value: low / 2, color: "#8dceb4" });
-    }
-    stops.push({ value: 0, color: "#f4efe4" });
-    if (high > 1) {
-      stops.push({ value: high / 2, color: "#e39155" }, { value: high, color: "#9d1c1c" });
-    }
-    const safe = tighten(stops.length >= 2 ? stops : [...stops, { value: 1, color: "#f4efe4" }]);
-    return {
-      title: "Monthly gap",
-      spec: { kind: "interpolate", stops: safe },
-      legend: safe.map((stop) => ({
-        color: stop.color,
-        label: stop.value === 0 ? "$0" : `${moneyLabel(stop.value)}/mo`,
-      })),
-    };
+    const edges = classEdges(Math.min(min, 0), Math.max(max, 0), MONEY_STEPS);
+    return stepped("Monthly gap", edges, gapColors(edges), "money");
   }
 
-  const low = quantile(values, layer === "cash" ? 0 : 0.08);
-  const mid = quantile(values, 0.5);
-  const high = Math.max(quantile(values, 0.92), low + 1);
-  const ramp =
-    layer === "cash"
-      ? ["#f6f1e4", "#e0b15a", "#7a4b12"]
-      : layer === "ami"
-        ? ["#e7f0f6", "#4f86b8", "#1a3e5c"]
-        : ["#f6f1e4", "#b56b8a", "#6b2d5b"];
-  const stops = tighten([
-    { value: Math.min(low, mid), color: ramp[0] },
-    { value: mid, color: ramp[1] },
-    { value: Math.max(high, mid + 1), color: ramp[2] },
-  ]);
-  const suffix = layer === "ami" || layer === "risk" ? "%" : "";
+  if (layer === "cash") {
+    const edges = classEdges(Math.min(min, 0), Math.max(max, 0), MONEY_STEPS);
+    const colors = sampleRamp(["#f6f1e4", "#f0d7a0", "#e0b15a", "#c4843a", "#8a5420", "#5c3812"], edges.length - 1);
+    return stepped("Net cash-to-close", edges, colors, "money");
+  }
+
+  if (layer === "ami") {
+    const edges = classEdges(min, max, PERCENT_STEPS);
+    const colors = sampleRamp(["#e7f0f6", "#b7d0e6", "#6fa0c8", "#3d74a3", "#1a3e5c"], edges.length - 1);
+    return stepped("Tract AMI", edges, colors, "percent");
+  }
+
   const title =
-    layer === "cash"
-      ? "Net cash-to-close"
-      : layer === "ami"
-        ? "Tract AMI"
-        : riskMode === "llc"
-          ? "LLC ownership"
-          : riskMode === "pre1980"
-            ? "Pre-1980 housing"
-            : "Investor & aging-stock risk";
-  return {
-    title,
-    spec: { kind: "interpolate", stops },
-    legend: stops.map((stop) => ({
-      color: stop.color,
-      label: layer === "cash" ? moneyLabel(stop.value) : `${Math.round(stop.value)}${suffix}`,
-    })),
-  };
+    riskMode === "llc" ? "LLC ownership" : riskMode === "pre1980" ? "Pre-1980 housing" : "Investor & aging-stock risk";
+  const edges = classEdges(Math.min(min, 0), Math.max(max, 1), PERCENT_STEPS);
+  const colors = sampleRamp(["#f6f1e4", "#efd0dc", "#d792ae", "#a85b82", "#6b2d5b"], edges.length - 1);
+  return stepped(title, edges, colors, "percent");
 }

@@ -1,7 +1,7 @@
 """Filter local NY Census Tract boundaries to the HCV master-table GEOIDs.
 
-Reads data/nys_hcv_master_table.csv (geoid kept as an 11-character string) and
-the Census Tract boundary archive in data/ (.zip, .shp, .geojson, or .kml).
+Reads public/data/nys_hcv_master_table.csv (geoid kept as an 11-character string)
+and the Census Tract boundary archive in data/ (.zip, .shp, .geojson, or .kml).
 Keeps only those tracts, reprojects to EPSG:4326, lightly simplifies the
 geometry, and writes public/data/nys_6msa_tracts.geojson.
 
@@ -12,7 +12,6 @@ No external boundary API is called. Run from the repo root:
 
 from __future__ import annotations
 
-import shutil
 import sys
 from pathlib import Path
 
@@ -37,12 +36,10 @@ GEOID_COLUMNS = (
 
 
 def find_master_csv() -> Path:
-    for path in (DATA_DIR / CSV_NAME, ROOT / CSV_NAME):
-        if path.is_file():
-            return path
-    raise FileNotFoundError(
-        f"Could not find {CSV_NAME} in {DATA_DIR} or {ROOT}"
-    )
+    path = PUBLIC_DATA / CSV_NAME
+    if path.is_file():
+        return path
+    raise FileNotFoundError(f"Could not find {path}")
 
 
 def find_boundary_files() -> list[Path]:
@@ -202,12 +199,8 @@ def main() -> int:
     out_path = PUBLIC_DATA / OUT_NAME
     output.to_file(out_path, driver="GeoJSON")
 
-    csv_dest = PUBLIC_DATA / CSV_NAME
-    if csv_path.resolve() != csv_dest.resolve():
-        shutil.copy2(csv_path, csv_dest)
-
     print(f"Wrote {out_path}")
-    print(f"Copied {CSV_NAME} to {csv_dest}")
+    print(f"Master table left in place: {csv_path}")
     print(f"Exact match: {len(output)} / {len(targets)}")
     return 0
 

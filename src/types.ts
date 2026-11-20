@@ -54,8 +54,6 @@ export type Controls = {
   wriOnly: boolean;
   nriMin: number;
   nriMax: number;
-  maxLlc: number;
-  maxPre1980: number;
   minListings: number;
 };
 
@@ -74,8 +72,6 @@ export const DEFAULT_CONTROLS: Controls = {
   wriOnly: false,
   nriMin: 1,
   nriMax: 5,
-  maxLlc: 100,
-  maxPre1980: 100,
   minListings: 0,
 };
 

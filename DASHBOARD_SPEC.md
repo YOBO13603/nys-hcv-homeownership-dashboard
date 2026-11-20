@@ -1,13 +1,13 @@
 # NYS HCV Homeownership Feasibility Dashboard — Technical & Product Specification
 
-Build a complete, interactive, policy-grade **New York State HCV (Housing Choice Voucher) Homeownership Feasibility Dashboard** powered by `data/nys_hcv_master_table.csv` (2,104 Census Tracts across 20 NYS counties in 6 MSAs) and the local NY Census Tract boundary file placed in `data/`.
+Build a complete, interactive, policy-grade **New York State HCV (Housing Choice Voucher) Homeownership Feasibility Dashboard** powered by `public/data/nys_hcv_master_table.csv` (2,104 Census Tracts across 20 NYS counties in 6 MSAs) and the local NY Census Tract boundary file placed in `data/`.
 
 First, inspect the existing repository structure so we integrate cleanly with the current stack (or scaffold a modern React + Vite/Next.js + Tailwind CSS + MapLibre GL JS + Turf.js + Recharts web app if starting fresh).
 
 ---
 
 ### 1. Local Data Loading & Boundary Preprocessing (Zero External Boundary APIs)
-1. **Master Table (`data/nys_hcv_master_table.csv`)**:
+1. **Master Table (`public/data/nys_hcv_master_table.csv`)**:
    - Load `geoid` (11-char string), `county_fips` (5-char string), `msa_code`, and `parent_zip` (5-char string) strictly as **strings** to preserve leading zeros.
    - Exact columns in CSV (29 columns, 0 missing values):
      - IDs & Geography: `geoid`, `county_fips`, `msa_code`, `msa_name`, `county_name`, `tract_label`, `parent_zip`
@@ -17,7 +17,7 @@ First, inspect the existing repository structure so we integrate cleanly with th
      - Secondary Market Reality Check: `acs_pre1980_pct`, `acs_pre1940_pct`, `acs_substandard_pct`, `llc_ownership_pct`, `active_listings_zip`
 2. **Local Census Tract Boundary Conversion (`data/*.zip` / `.shp` / `.geojson`)**:
    - Do NOT call any external TIGERweb boundary API. Instead, create and run a local preprocessing script (`scripts/prepare_boundaries.py` using `geopandas` or `pyshp`/`shapely`) that automatically locates the NY Census Tract boundary archive/file in `data/` (e.g., `data/cb_2023_36_tract_500k.zip`, `data/tl_2023_36_tract.zip`, or extracted `.shp`/`.geojson`).
-   - Normalize its 11-character `GEOID` string, filter strictly to the exact **2,104 `geoid`s** present in `data/nys_hcv_master_table.csv` (automatically dropping NYC, non-target counties, and water tracts), reproject coordinates to WGS84 (`EPSG:4326`), simplify geometry lightly (`tolerance=0.0001`, preserving topology) for fast browser rendering, and save to `public/data/nys_6msa_tracts.geojson` (also copy `nys_hcv_master_table.csv` to `public/data/` if needed for client-side loading).
+   - Normalize its 11-character `GEOID` string, filter strictly to the exact **2,104 `geoid`s** present in `public/data/nys_hcv_master_table.csv` (automatically dropping NYC, non-target counties, and water tracts), reproject coordinates to WGS84 (`EPSG:4326`), simplify geometry lightly (`tolerance=0.0001`, preserving topology) for fast browser rendering, and save to `public/data/nys_6msa_tracts.geojson`.
    - Print a verification check confirming `2,104 / 2,104` tracts matched cleanly with `0` missing geometries.
 
 ---
@@ -46,7 +46,7 @@ Compute both **Upfront Cash-to-Close** and **Monthly Carrying Cost vs. Voucher C
   5. `gross_upfront_cash = down_payment + est_hmda_loan_costs + mrt_cost + inspection_fee`
   6. `applied_dpa`: Supports 3 modes:
      - **County Local Default** (`local_dpa_cap` from CSV)
-     - **NYS SONYMA DPAL** (`min(15000, P * 0.03)`)
+     - **NYS SONYMA DPAL** (the greater of $3,000 or 3% of price, capped at $15,000; no monthly payment)
      - **Custom DPA Slider** (`$0` – `$50,000`)
   7. `net_cash_gap = max(0, gross_upfront_cash - applied_dpa)`
 - **Ledger B — Monthly Carrying Cost vs. HCV Subsidy**:

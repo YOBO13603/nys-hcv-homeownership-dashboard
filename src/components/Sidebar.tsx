@@ -104,7 +104,7 @@ export function Sidebar({ controls, counties, onChange, onRegion, onReset }: Sid
           {controls.dpaMode === "county"
             ? "Uses each tract’s local DPA cap."
             : controls.dpaMode === "sonyma"
-              ? "min($15,000, 3% of price)."
+              ? "Greater of $3,000 or 3% of price, capped at $15,000. No monthly payment."
               : "Applies the same dollar amount in every tract."}
         </p>
         {controls.dpaMode === "custom" ? (
@@ -195,30 +195,8 @@ export function Sidebar({ controls, counties, onChange, onRegion, onReset }: Sid
 
       <Accordion
         title="Secondary-market reality check"
-        badge={
-          Number(controls.maxLlc < DEFAULT_CONTROLS.maxLlc) +
-          Number(controls.maxPre1980 < DEFAULT_CONTROLS.maxPre1980) +
-          Number(controls.minListings > DEFAULT_CONTROLS.minListings)
-        }
+        badge={Number(controls.minListings > DEFAULT_CONTROLS.minListings)}
       >
-        <Slider
-          label="Max LLC ownership"
-          min={0}
-          max={100}
-          step={1}
-          value={controls.maxLlc}
-          display={`${controls.maxLlc}%`}
-          onChange={(maxLlc) => patch({ maxLlc })}
-        />
-        <Slider
-          label="Max pre-1980 housing"
-          min={0}
-          max={100}
-          step={1}
-          value={controls.maxPre1980}
-          display={`${controls.maxPre1980}%`}
-          onChange={(maxPre1980) => patch({ maxPre1980 })}
-        />
         <Slider
           label="Min active ZIP listings"
           min={0}

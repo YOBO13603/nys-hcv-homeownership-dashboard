@@ -4,9 +4,7 @@ Master table for the NYS HCV Homeownership Feasibility Dashboard. One row is one
 
 | File | Role |
 | --- | --- |
-| `nys_hcv_master_table.csv` | Source table at the project root |
-| `data/nys_hcv_master_table.csv` | Same table used by the boundary script |
-| `public/data/nys_hcv_master_table.csv` | Copy the app fetches in the browser |
+| `public/data/nys_hcv_master_table.csv` | The only master table. The app fetches this file, and `scripts/prepare_boundaries.py` reads it. |
 | `public/data/nys_6msa_tracts.geojson` | Tract polygons for those 2,104 GEOIDs, EPSG:4326 |
 
 The table has **2,104 rows**, **29 columns**, and no empty cells. `geoid`, `county_fips`, and `parent_zip` are identifiers. Keep them as strings. Do not cast them with `Number()`, or a leading zero would disappear. In this extract every tract GEOID already starts with `36`.

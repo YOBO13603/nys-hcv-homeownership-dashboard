@@ -67,6 +67,11 @@ export function MapView({
       style: STYLE,
       center: [-76.3, 42.15],
       zoom: 6.3,
+      minZoom: 5.2,
+      maxBounds: [
+        [-80.6, 40.15],
+        [-71.2, 45.35],
+      ],
       attributionControl: { compact: true },
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
@@ -78,26 +83,31 @@ export function MapView({
         data: geojson as unknown as FeatureCollection,
         promoteId: "geoid",
       });
-      map.addLayer({
+      const beforeLabels = map.getStyle().layers?.find((layer) => layer.type === "symbol")?.id;
+      const addTractLayer = (layer: maplibregl.LayerSpecification) => {
+        if (beforeLabels) map.addLayer(layer, beforeLabels);
+        else map.addLayer(layer);
+      };
+      addTractLayer({
         id: "tract-fill",
         type: "fill",
         source: "tracts",
         paint: {
           "fill-color": "#d7c4a3",
-          "fill-opacity": ["case", ["==", ["feature-state", "on"], 0], 0.05, 0.84],
+          "fill-opacity": ["case", ["==", ["feature-state", "on"], 0], 0.05, 0.72],
         },
       });
-      map.addLayer({
+      addTractLayer({
         id: "tract-line",
         type: "line",
         source: "tracts",
         paint: {
-          "line-color": "#ffffff",
-          "line-width": 0.4,
-          "line-opacity": 0.8,
+          "line-color": "#f4f1ea",
+          "line-width": 0.45,
+          "line-opacity": 0.9,
         },
       });
-      map.addLayer({
+      addTractLayer({
         id: "tract-glow",
         type: "line",
         source: "tracts",
@@ -109,7 +119,7 @@ export function MapView({
           "line-opacity": 0,
         },
       });
-      map.addLayer({
+      addTractLayer({
         id: "tract-highlight",
         type: "line",
         source: "tracts",
@@ -154,14 +164,25 @@ export function MapView({
         );
       }
       map.setPaintProperty("tract-fill", "fill-color", paintExpression(paint));
-      map.setPaintProperty("tract-line", "line-width", opportunity ? ["case", ["==", ["feature-state", "wri"], 1], 1.7, 0.35] : 0.4);
-      map.setPaintProperty(
-        "tract-line",
-        "line-color",
-        opportunity
-          ? ["case", ["==", ["feature-state", "wri"], 1], "#14241c", "#ffffff"]
-          : "#ffffff",
-      );
+      const hidden = ["==", ["feature-state", "on"], 0] as ExpressionSpecification;
+      map.setPaintProperty("tract-line", "line-color", [
+        "case",
+        hidden,
+        "#c9c3b8",
+        opportunity ? ["case", ["==", ["feature-state", "wri"], 1], "#1a2a24", "#f7f4ee"] : "#f7f4ee",
+      ] as ExpressionSpecification);
+      map.setPaintProperty("tract-line", "line-width", [
+        "case",
+        hidden,
+        0.45,
+        opportunity ? ["case", ["==", ["feature-state", "wri"], 1], 0.7, 0.35] : 0.4,
+      ] as ExpressionSpecification);
+      map.setPaintProperty("tract-line", "line-opacity", [
+        "case",
+        hidden,
+        0.8,
+        0.9,
+      ] as ExpressionSpecification);
     };
     if (readyRef.current) apply();
     else map.once("idle", apply);
@@ -183,7 +204,7 @@ export function MapView({
         "fill-opacity",
         spotlightGeoid
           ? (["case", ["==", ["get", "geoid"], spotlightGeoid], 0.96, 0.12] as ExpressionSpecification)
-          : (["case", ["==", ["feature-state", "on"], 0], 0.05, 0.84] as ExpressionSpecification),
+          : (["case", ["==", ["feature-state", "on"], 0], 0.05, 0.72] as ExpressionSpecification),
       );
     };
     if (readyRef.current) apply();

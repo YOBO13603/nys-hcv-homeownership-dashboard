@@ -270,7 +270,7 @@ function Dashboard({ data }: { data: Dataset }) {
               </div>
             ) : null}
           </div>
-          <div className="absolute bottom-8 left-3 z-10 max-w-[220px] rounded-lg bg-white/90 px-3 py-2 text-xs shadow">
+          <div className="absolute bottom-8 left-3 z-10 max-w-[280px] rounded-lg bg-white/90 px-3 py-2 text-xs shadow">
             <p className="mb-1 font-medium">{paint.title}</p>
             <ul className="space-y-1">
               {paint.legend.map((item) => (
